@@ -24,7 +24,7 @@
     "href": "HabitatCompressionIndex.html",
     "title": "2  Habitat Compression Index",
     "section": "",
-    "text": "Spatial variability in patterns of upwelling, including the distribution of upwelled water and associated development of hydrographic fronts, is important for ecosystem monitoring and assessment of marine heatwaves and ecosystem shifts that can impact coastal fishing communities. Coastal upwelling creates a band of relatively cool coastal water, which is suitable habitat for a diverse and productive portion of the CCE food web. Monitoring the area and variability of upwelling habitat provides regional measures of habitat compression—an indicator to monitor the incursion of offshore warming (e.g., from heatwaves or reduced upwelling conditions) over shelf waters, which relates to shifts in the pelagic forage species community in space and time. Santora et al. (2020) applied principles of ecosystem oceanography and integration of fisheries surveys to develop the Habitat Compression Index (HCI) to quantify how offshore warming during the 2013–2016 marine heatwave and previous warming events restricted the cool upwelling habitat to a narrower-than-normal band along the coast. This compression of habitat consequently altered prey community composition and distribution, spatial aggregation patterns of top predators, and contributed to increased rates of whale entanglements in fixed fishing gear.\nHCI is derived from the CCE configuration of the Regional Ocean Modeling System (ROMS) model with data assimilation (Neveu et al. 2016), and is estimated in four biogeographic provinces within the CCE: 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. HCI is defined as the area of monthly averaged ROMS model temperatures at a depth of 2 m that fall below a temperature threshold. Each region/month has a unique temperature threshold, based on its distinct historic climatology. Seasonal means for central California are shown in the main body of the report (Fig. 2.5).",
+    "text": "Spatial variability in patterns of upwelling, including the distribution of upwelled water and associated development of hydrographic fronts, is important for ecosystem monitoring and assessment of marine heatwaves and ecosystem shifts that can impact coastal fishing communities. Coastal upwelling creates a band of relatively cool coastal water, which is suitable habitat for a diverse and productive portion of the CCE food web. Monitoring the area and variability of upwelling habitat provides regional measures of habitat compression—an indicator to monitor the incursion of offshore warming (e.g., from heatwaves or reduced upwelling conditions) over shelf waters, which relates to shifts in the pelagic forage species community in space and time. Santora et al. (2020) applied principles of ecosystem oceanography and integration of fisheries surveys to develop the Habitat Compression Index (HCI) to quantify how offshore warming during the 2013–2016 marine heatwave and previous warming events restricted the cool upwelling habitat to a narrower-than-normal band along the coast. This compression of habitat consequently altered prey community composition and distribution, spatial aggregation patterns of top predators, and contributed to increased rates of whale entanglements in fixed fishing gear.\nHCI is derived from the CCE configuration of the Regional Ocean Modeling System (ROMS) model with data assimilation (Neveu et al. 2016), and is estimated in four biogeographic provinces within the CCE: 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. HCI is defined as the area of monthly averaged ROMS model temperatures at a depth of 2 m that fall below a temperature threshold. Each region/month has a unique temperature threshold, based on its distinct historic climatology.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Habitat Compression Index</span>"
     ]
@@ -44,9 +44,49 @@
     "href": "MaximumStreamTemperature.html",
     "title": "4  Maximum Stream Temperatures",
     "section": "",
-    "text": "Mean maximum stream temperatures in August (Fig. G.2) were determined from 446 USGS gauges with temperature monitoring capability. While these gauges did not necessarily operate simultaneously throughout the period of record, at least two gauges provided data each year in all ecoregions. Stream temperature records are limited in California, so two ecoregions (Sacramento/San Joaquin and Southern California Bight-Baja) were combined. Maximum temperatures exhibit strong ecoregional differences in absolute temperature (for example, Salish Sea and Washington Coast streams are much cooler on average than California streams).",
+    "text": "Mean maximum stream temperatures in August were determined from 446 USGS gauges with temperature monitoring capability. While these gauges did not necessarily operate simultaneously throughout the period of record, at least two gauges provided data each year in all ecoregions. Stream temperature records are limited in California, so two ecoregions (Sacramento/San Joaquin and Southern California Bight-Baja) were combined. Maximum temperatures exhibit strong ecoregional differences in absolute temperature (for example, Salish Sea and Washington Coast streams are much cooler on average than California streams).",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Maximum Stream Temperatures</span>"
+    ]
+  },
+  {
+    "objectID": "Streamflow.html",
+    "href": "Streamflow.html",
+    "title": "5  Streamflow",
+    "section": "",
+    "text": "Flow is derived from active USGS gages with records that are of at least 30 years’ duration (waterdata.usgs.gov/nwis/sw). Daily means from 213 gauges were used to calculate annual 1-day maximum and 7-day minimum flows. These indicators correspond to flow parameters to which salmon populations are most sensitive. We use standardized anomalies of streamflow time series from individual gages.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Streamflow</span>"
+    ]
+  },
+  {
+    "objectID": "NCCForage.html",
+    "href": "NCCForage.html",
+    "title": "6  Northern California Current Forage",
+    "section": "",
+    "text": "The Northern CCE survey (known as the Juvenile Salmon Ocean Ecology Survey, JSOES) occurs in June and targets juvenile salmon in surface waters off Oregon and Washington. It also collects adult and juvenile (age 1+) pelagic forage fishes, market squid, and gelatinous zooplankton with regularity. A Nordic 264 rope trawl is towed for 15-30 min at approximately 6.5 km/hr. The gear is fished during daylight hours in near-surface (upper 20 m) waters, which is appropriate for targeting juvenile salmon.\nPelagic forage data from the Northern CCE from B. Burke, NMFS/NWFSC and C. Morgan, OSU/CIMRS. Data are derived from surface trawls taken during the NWFSC Juvenile Salmon & Ocean Ecosystem Survey (JSOES; https://www.fisheries.noaa.gov/west-coast/science-data/ocean-ecosystem-indicators-pacific-salmon-marine-survival-northern). Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.\n#add citations for JSOES here",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Northern California Current Forage</span>"
+    ]
+  },
+  {
+    "objectID": "CCCForage.html",
+    "href": "CCCForage.html",
+    "title": "7  Central California Current Forage",
+    "section": "",
+    "text": "The Central CCE forage survey (known as the Rockfish Recruitment and Ecosystem Assessment Survey, RREAS) samples much of the West Coast each May to mid-June, using midwater trawls sampling between 30 and 45 m depths during nighttime hours. The survey targets young-of-the-year (YOY) rockfish species and a variety of other YOY and adult forage species, market squid, adult krill, and gelatinous zooplankton. Juvenile rockfish, anchovy, krill, and market squid are among the most important prey for CCE predators (Szoboszlai et al. 2015). Time series presented here are from the “Core Area” of that survey, centered off Monterey Bay. Catch data were standardized by using a delta-GLM to estimate year effects while accounting for spatial and temporal covariates to yield relative abundance indices, shown with their approximate 95% confidence limits (Santora et al. 2021). The 2023 survey effort in the “Core Area” was comparable to previous years, apart from 2020.\nPelagic forage data from the Central CCE were provided by J. Field, T. Rogers, K. Sakuma, and J. Santora, NMFS/SWFSC, from the SWFSC Rockfish Recruitment and Ecosystem Assessment Survey (https://go.usa.gov/xGMfR). Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Central California Current Forage</span>"
+    ]
+  },
+  {
+    "objectID": "SCCForage.html",
+    "href": "SCCForage.html",
+    "title": "8  Southern California Current Forage",
+    "section": "",
+    "text": "Abundance indicators for forage in the Southern CCE come from fish and squid larvae collected in the spring (May-June) across all core stations of the CalCOFI survey. Larval data are indicators of the relative regional abundances of adult forage fish, such as sardines and anchovy, and other species, including certain groundfish, market squid, and mesopelagic fishes. The survey samples a variety of fish and invertebrate larvae (&lt;5 d old) from several taxonomic and functional groups, collected via oblique vertical tows of fine mesh Bongo nets to 212 m depth. In 2020, the spring larval survey was canceled due to COVID-19, and thus no data are available for that year, but survey operations resumed in 2021.\nPelagic forage larvae data from the Southern CCE were provided by A. Thompson, NMFS/SWFSC, from spring CalCOFI surveys (https://calcofi.org/); data were not collected in 2020 due to survey cancellations associated with the COVID pandemic. Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.\n#add SCC larval fish references",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Southern California Current Forage</span>"
     ]
   }
 ]

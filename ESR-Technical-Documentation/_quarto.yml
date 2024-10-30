@@ -11,8 +11,10 @@ book:
     - HabitatCompressionIndex.qmd
     - SnowWaterEquivalent.qmd
     - MaximumStreamTemperature.qmd
-    - Streamflow
-    - NCCForage
+    - Streamflow.qmd
+    - NCCForage.qmd
+    - CCCForage.qmd
+    - SCCForage.qmd
 
 
 format:
