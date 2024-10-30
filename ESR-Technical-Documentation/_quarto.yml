@@ -8,6 +8,7 @@ book:
   chapters:
     - index.qmd
     - Introduction.qmd
+    - HabitatCompressionIndex.qmd
 
 
 
