@@ -1,0 +1,7 @@
+# Basin-Scale Indicators
+
+The Oceanic Niño Index (ONI) describes the equatorial El Niño Southern Oscillation (ENSO). An ONI above 0.5°C indicates El Niño conditions, which often lead to lower primary production, weaker upwelling, poleward transport of equatorial waters and species, and more southerly storm tracks in the CCE. An ONI below -0.5°C means La Niña conditions, which create atmospheric pressure conditions that lead to upwelling-favorable winds that drive productivity in the CCE.
+
+The Pacific Decadal Oscillation (PDO) describes North Pacific sea surface temperature (SST) anomalies that may persist for many years. Positive PDOs are associated with warmer SST and lower productivity in the CCE, while negative PDOs indicate cooler SST and are associated with higher productivity.
+
+The North Pacific Gyre Oscillation (NPGO), an index of sea surface height, indicates changes in circulation that affect source waters for the CCE. Positive NPGOs are associated with strong equatorward flow and higher salinity, nutrients, and chlorophyll-a in the CCE. Negative NPGOs are associated with decreased subarctic source water and lower CCE productivity.

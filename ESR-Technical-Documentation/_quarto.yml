@@ -4,10 +4,11 @@ project:
 book:
   title: "ESR-Technical-Documentation"
   author: "Greg Williams, Chris Dailey, etc"
-  date: "10/30/2024"
+  date: "11/05/2024"
   chapters:
     - index.qmd
     - Introduction.qmd
+    - BasinScaleIndicators.qmd
     - Upwelling.qmd
     - MarineHeatwaves.qmd
     - HabitatCompressionIndex.qmd
