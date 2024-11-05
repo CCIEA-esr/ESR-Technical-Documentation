@@ -9,8 +9,8 @@ book:
     - index.qmd
     - Introduction.qmd
     - BasinScaleIndicators.qmd
-    - Upwelling.qmd
     - MarineHeatwaves.qmd
+    - Upwelling.qmd
     - HabitatCompressionIndex.qmd
     - DissolvedOxygen.qmd
     - OceanAcidification.qmd
@@ -18,6 +18,9 @@ book:
     - SnowWaterEquivalent.qmd
     - MaximumStreamTemperature.qmd
     - Streamflow.qmd
+    - Copepods.qmd
+    - Krill.qmd
+    - DungenessCrabMegalopae.qmd
     - NCCForage.qmd
     - CCCForage.qmd
     - SCCForage.qmd
