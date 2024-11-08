@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.5.54">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ESR-Technical-Documentation - 4&nbsp; Habitat Compression Index</title>
+<title>5&nbsp; Habitat Compression Index – ESR-Technical-Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -31,7 +51,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./DissolvedOxygen.html" rel="next">
-<link href="./MarineHeatwaves.html" rel="prev">
+<link href="./Upwelling.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -78,13 +98,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HabitatCompressionIndex.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Habitat Compression Index</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./HabitatCompressionIndex.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Habitat Compression Index</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -120,8 +140,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Upwelling.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Upwelling</span></span></a>
+  <a href="./BasinScaleIndicators.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Basin-Scale Indicators</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -132,62 +152,86 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./Upwelling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Upwelling</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./HabitatCompressionIndex.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Habitat Compression Index</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Habitat Compression Index</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./DissolvedOxygen.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Dissolved Oxygen</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Dissolved Oxygen</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./OceanAcidification.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Ocean Acidification</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Ocean Acidification</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./FreshwaterHabitat.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Freshwater Habitat Indicators</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Freshwater Habitat Indicators</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./SnowWaterEquivalent.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Snow-water equivalent</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Snow-water equivalent</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./MaximumStreamTemperature.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Maximum Stream Temperatures</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Maximum Stream Temperatures</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Streamflow.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Streamflow</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Streamflow</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Copepods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Copepods</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Krill.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Krill</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./DungenessCrabMegalopae.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Dungeness crab megalopae</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./NCCForage.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Northern California Current Forage</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Northern California Current Forage</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./CCCForage.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Central California Current Forage</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Central California Current Forage</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./SCCForage.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Southern California Current Forage</span></span></a>
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Southern California Current Forage</span></span></a>
   </div>
 </li>
     </ul>
@@ -195,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
@@ -203,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Habitat Compression Index</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Habitat Compression Index</span></h1>
 </div>
 
 
@@ -220,11 +264,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Spatial variability in patterns of upwelling, including the distribution of upwelled water and associated development of hydrographic fronts, is important for ecosystem monitoring and assessment of marine heatwaves and ecosystem shifts that can impact coastal fishing communities. Coastal upwelling creates a band of relatively cool coastal water, which is suitable habitat for a diverse and productive portion of the CCE food web. Monitoring the area and variability of upwelling habitat provides regional measures of habitat compression—an indicator to monitor the incursion of offshore warming (e.g., from heatwaves or reduced upwelling conditions) over shelf waters, which relates to shifts in the pelagic forage species community in space and time. Santora et al.&nbsp;(2020) applied principles of ecosystem oceanography and integration of fisheries surveys to develop the Habitat Compression Index (HCI) to quantify how offshore warming during the 2013–2016 marine heatwave and previous warming events restricted the cool upwelling habitat to a narrower-than-normal band along the coast. This compression of habitat consequently altered prey community composition and distribution, spatial aggregation patterns of top predators, and contributed to increased rates of whale entanglements in fixed fishing gear.</p>
-<p>HCI is derived from the CCE configuration of the Regional Ocean Modeling System (ROMS) model with data assimilation (Neveu et al.&nbsp;2016), and is estimated in four biogeographic provinces within the CCE: 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. HCI is defined as the area of monthly averaged ROMS model temperatures at a depth of 2 m that fall below a temperature threshold. Each region/month has a unique temperature threshold, based on its distinct historic climatology.</p>
+<p>Spatial variability in patterns of upwelling, including the distribution of upwelled water and associated development of hydrographic fronts, is important for ecosystem monitoring and assessment of marine heatwaves and ecosystem shifts that can impact coastal fishing communities. Coastal upwelling creates a band of relatively cool coastal water, which is suitable habitat for a diverse and productive portion of the CCE food web. Monitoring the area and variability of upwelling habitat provides regional measures of habitat compression—an indicator to monitor the incursion of offshore warming (e.g., from heatwaves or reduced upwelling conditions) over shelf waters, which relates to shifts in the pelagic forage species community in space and time. <span class="citation" data-cites="santora2020habitat">Santora et al. (<a href="#ref-santora2020habitat" role="doc-biblioref">2020</a>)</span> applied principles of ecosystem oceanography and integration of fisheries surveys to develop the Habitat Compression Index (HCI) to quantify how offshore warming during the 2013–2016 marine heatwave and previous warming events restricted the cool upwelling habitat to a narrower-than-normal band along the coast. This compression of habitat consequently altered prey community composition and distribution, spatial aggregation patterns of top predators, and contributed to increased rates of whale entanglements in fixed fishing gear.</p>
+<p>HCI is derived from the CCE configuration of the Regional Ocean Modeling System (ROMS) model with data assimilation (<span class="citation" data-cites="neveu2016historical">Neveu et al. (<a href="#ref-neveu2016historical" role="doc-biblioref">2016</a>)</span>), and is estimated in four biogeographic provinces within the CCE: 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. HCI is defined as the area of monthly averaged ROMS model temperatures at a depth of 2 m that fall below a temperature threshold. Each region/month has a unique temperature threshold, based on its distinct historic climatology.</p>
 <p>#could replace highlighted text with “The Habitat Compression Index (HCI) is a model-derived measure of the area of cool habitat along the coast, which is suitable for a diverse and productive portion of the CCE food web. HCI is estimated in four biogeographic provinces within the CCE: : 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. Methodological details are available [here].”</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-neveu2016historical" class="csl-entry" role="listitem">
+Neveu, Emilie, Andrew M Moore, Christopher A Edwards, Jérôme Fiechter, Patrick Drake, William J Crawford, Michael G Jacox, and Emma Nuss. 2016. <span>“An Historical Analysis of the California Current Circulation Using ROMS 4D-Var: System Configuration and Diagnostics.”</span> <em>Ocean Modelling</em> 99: 133–51.
+</div>
+<div id="ref-santora2020habitat" class="csl-entry" role="listitem">
+Santora, Jarrod A, Nathan J Mantua, Isaac D Schroeder, John C Field, Elliott L Hazen, Steven J Bograd, William J Sydeman, et al. 2020. <span>“Habitat Compression and Ecosystem Shifts as Potential Links Between Marine Heatwave and Record Whale Entanglements.”</span> <em>Nature Communications</em> 11 (1): 1–12.
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -262,18 +314,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -305,7 +346,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -313,7 +376,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -638,13 +701,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./MarineHeatwaves.html" class="pagination-link" aria-label="Marine Heatwaves">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Marine Heatwaves</span></span>
+      <a href="./Upwelling.html" class="pagination-link" aria-label="Upwelling">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Upwelling</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./DissolvedOxygen.html" class="pagination-link" aria-label="Dissolved Oxygen">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Dissolved Oxygen</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Dissolved Oxygen</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

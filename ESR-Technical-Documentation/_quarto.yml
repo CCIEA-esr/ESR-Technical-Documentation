@@ -29,8 +29,9 @@ book:
 format:
   html:
     theme: cosmo
+    
+bibliography: esr-bibliography.bib
  
-
 
 editor: visual
 
