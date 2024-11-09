@@ -12,6 +12,8 @@ book:
       chapters:
       - BasinScaleIndicators.qmd
       - MarineHeatwaves.qmd
+      - Upwelling.qmd
+      - HabitatCompression.qmd
       - SnowWaterEquivalent.qmd
       - MaximumStreamTemperature.qmd
       - Streamflow.qmd
