@@ -13,15 +13,13 @@ book:
       - BasinScaleIndicators.qmd
       - MarineHeatwaves.qmd
       - Upwelling.qmd
-      - HabitatCompression.qmd
+      - HabitatCompressionIndex.qmd
       - SnowWaterEquivalent.qmd
       - MaximumStreamTemperature.qmd
       - Streamflow.qmd
       - DissolvedOxygen.qmd
       - OceanAcidification.qmd
       - FreshwaterHabitat.qmd
-      - Upwelling.qmd
-      - HabitatCompressionIndex.qmd
     - part: Focal Components of Ecological Integrity
       chapters:
       - Copepods.qmd
