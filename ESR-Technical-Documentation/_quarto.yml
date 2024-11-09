@@ -8,22 +8,33 @@ book:
   chapters:
     - index.qmd
     - Introduction.qmd
-    - BasinScaleIndicators.qmd
-    - MarineHeatwaves.qmd
-    - Upwelling.qmd
-    - HabitatCompressionIndex.qmd
-    - DissolvedOxygen.qmd
-    - OceanAcidification.qmd
-    - FreshwaterHabitat.qmd
-    - SnowWaterEquivalent.qmd
-    - MaximumStreamTemperature.qmd
-    - Streamflow.qmd
-    - Copepods.qmd
-    - Krill.qmd
-    - DungenessCrabMegalopae.qmd
-    - NCCForage.qmd
-    - CCCForage.qmd
-    - SCCForage.qmd
+    - part: Climate and Oceans
+      chapters:
+      - BasinScaleIndicators.qmd
+      - MarineHeatwaves.qmd
+      - SnowWaterEquivalent.qmd
+      - MaximumStreamTemperature.qmd
+      - Streamflow.qmd
+      - DissolvedOxygen.qmd
+      - OceanAcidification.qmd
+      - FreshwaterHabitat.qmd
+      - Upwelling.qmd
+      - HabitatCompressionIndex.qmd
+    - part: Focal Components of Ecological Integrity
+      chapters:
+      - Copepods.qmd
+      - Krill.qmd
+      - DungenessCrabMegalopae.qmd
+      - NCCForage.qmd
+      - CCCForage.qmd
+      - SCCForage.qmd
+    
+   
+   
+    
+   
+    
+   
 
 
 format:

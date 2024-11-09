@@ -26,6 +26,7 @@
     "section": "",
     "text": "The Oceanic Niño Index (ONI) describes the equatorial El Niño Southern Oscillation (ENSO). An ONI above 0.5°C indicates El Niño conditions, which often lead to lower primary production, weaker upwelling, poleward transport of equatorial waters and species, and more southerly storm tracks in the CCE. An ONI below -0.5°C means La Niña conditions, which create atmospheric pressure conditions that lead to upwelling-favorable winds that drive productivity in the CCE.\nThe Pacific Decadal Oscillation (PDO) describes North Pacific sea surface temperature (SST) anomalies that may persist for many years. Positive PDOs are associated with warmer SST and lower productivity in the CCE, while negative PDOs indicate cooler SST and are associated with higher productivity.\nThe North Pacific Gyre Oscillation (NPGO), an index of sea surface height, indicates changes in circulation that affect source waters for the CCE. Positive NPGOs are associated with strong equatorward flow and higher salinity, nutrients, and chlorophyll-a in the CCE. Negative NPGOs are associated with decreased subarctic source water and lower CCE productivity.",
     "crumbs": [
+      "Climate and Oceans",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Basin-Scale Indicators</span>"
     ]
   },
@@ -36,87 +37,96 @@
     "section": "",
     "text": "There is growing recognition that marine heatwaves can have strongly disruptive impacts on the CCE (e.g., Morgan et al. 2019). Based on an analysis of sea surface temperature anomalies (SSTa) obtained from satellite measurements (OISST; we define marine heatwaves as 1) times when normalized SSTa &gt;1.29 s.d. (90th percentile) of the long-term SSTa time series at a location, and 2) lasts for &gt;5 days; which are analogous to the thresholds suggested in Hobday et al. (2016). Here, we further report on statistics concerning large heatwaves (LHW) which were tracked through space and time, with LHW defined as those heatwaves with an area &gt; 400,000 km2 (these denote the top 20% of all heatwaves by area as measured since 1982 when satellite data became available for tracking; Leising, in revision).\nNote: Need to work in climatology from this Note ” the underlying climatology used for SST anomaly analysis has changed from 1982-2010, to now encompass 1982-2020; hence small changes in the retrospective analysis of tracked heatwaves reported more recently as compared to previous reports.”",
     "crumbs": [
+      "Climate and Oceans",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Marine Heatwaves</span>"
-    ]
-  },
-  {
-    "objectID": "Upwelling.html",
-    "href": "Upwelling.html",
-    "title": "4  Upwelling",
-    "section": "",
-    "text": "The CCE is an upwelling dominated system, with the interaction between upwelling, stratification, and source water properties controlling much of coastal temperatures, nutrient input, and overall productivity. Time series of the upwelling indices CUTI and BUTI provide information on upwelling strength at sub-seasonal frequency and upwelling phenology, and allow interannual comparisons of seasonal upwelling timing and frequency. Additionally, the calculation of cumulative upwelling allows for a comparison of the total amount of upwelling a region receives during the entire course of the year. Cumulative upwelling is calculated as the daily summation of upwelling values (additive for positive upwelling, and subtractive for negative upwelling - aka downwelling) starting on Jan 1 and ending on Dec 31st.",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Upwelling</span>"
-    ]
-  },
-  {
-    "objectID": "HabitatCompressionIndex.html",
-    "href": "HabitatCompressionIndex.html",
-    "title": "5  Habitat Compression Index",
-    "section": "",
-    "text": "Spatial variability in patterns of upwelling, including the distribution of upwelled water and associated development of hydrographic fronts, is important for ecosystem monitoring and assessment of marine heatwaves and ecosystem shifts that can impact coastal fishing communities. Coastal upwelling creates a band of relatively cool coastal water, which is suitable habitat for a diverse and productive portion of the CCE food web. Monitoring the area and variability of upwelling habitat provides regional measures of habitat compression—an indicator to monitor the incursion of offshore warming (e.g., from heatwaves or reduced upwelling conditions) over shelf waters, which relates to shifts in the pelagic forage species community in space and time. Santora et al. (2020) applied principles of ecosystem oceanography and integration of fisheries surveys to develop the Habitat Compression Index (HCI) to quantify how offshore warming during the 2013–2016 marine heatwave and previous warming events restricted the cool upwelling habitat to a narrower-than-normal band along the coast. This compression of habitat consequently altered prey community composition and distribution, spatial aggregation patterns of top predators, and contributed to increased rates of whale entanglements in fixed fishing gear.\nHCI is derived from the CCE configuration of the Regional Ocean Modeling System (ROMS) model with data assimilation (Neveu et al. (2016)), and is estimated in four biogeographic provinces within the CCE: 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. HCI is defined as the area of monthly averaged ROMS model temperatures at a depth of 2 m that fall below a temperature threshold. Each region/month has a unique temperature threshold, based on its distinct historic climatology.\n#could replace highlighted text with “The Habitat Compression Index (HCI) is a model-derived measure of the area of cool habitat along the coast, which is suitable for a diverse and productive portion of the CCE food web. HCI is estimated in four biogeographic provinces within the CCE: : 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. Methodological details are available [here].”\n\n\n\n\nNeveu, Emilie, Andrew M Moore, Christopher A Edwards, Jérôme Fiechter, Patrick Drake, William J Crawford, Michael G Jacox, and Emma Nuss. 2016. “An Historical Analysis of the California Current Circulation Using ROMS 4D-Var: System Configuration and Diagnostics.” Ocean Modelling 99: 133–51.\n\n\nSantora, Jarrod A, Nathan J Mantua, Isaac D Schroeder, John C Field, Elliott L Hazen, Steven J Bograd, William J Sydeman, et al. 2020. “Habitat Compression and Ecosystem Shifts as Potential Links Between Marine Heatwave and Record Whale Entanglements.” Nature Communications 11 (1): 1–12.",
-    "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitat Compression Index</span>"
-    ]
-  },
-  {
-    "objectID": "DissolvedOxygen.html",
-    "href": "DissolvedOxygen.html",
-    "title": "6  Dissolved Oxygen",
-    "section": "",
-    "text": "Nearshore dissolved oxygen (DO) depends on many processes, including currents, upwelling, air–sea exchange, and community-level production and respiration in the water column and benthos. DO is required for organismal respiration; low DO can compress habitat and cause stress or die-offs for sensitive species. Waters with DO levels &lt;1.4 mL/L (~ 2 mg/L, note unit change) are considered to be hypoxic; such conditions may occur on the shelf following the onset of spring upwelling, and continue into the summer and early fall months until the fall transition vertically mixes shelf waters. Upwelling-driven hypoxia occurs because upwelled water from deeper ocean sources tends to be low in DO, and microbial decomposition of organic matter in the summer and fall increases overall system respiration and oxygen consumption, particularly closer to the seafloor (Chan et al. (2008)).\n\n\n\n\nChan, Francis, JA Barth, J Lubchenco, A Kirincich, H Weeks, William T Peterson, and BA Menge. 2008. “Emergence of Anoxia in the California Current Large Marine Ecosystem.” Science 319 (5865): 920–20.",
-    "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Dissolved Oxygen</span>"
-    ]
-  },
-  {
-    "objectID": "OceanAcidification.html",
-    "href": "OceanAcidification.html",
-    "title": "7  Ocean Acidification",
-    "section": "",
-    "text": "Ocean acidification (OA), which occurs when atmospheric CO2 dissolves into seawater, reduces seawater pH and carbonate ion levels. Upwelling transports hypoxic, acidified waters from deeper offshore onto the continental shelf, where increased community-level metabolic activity can further exacerbate OA (Feely et al. (2008)). A key indicator of OA is aragonite saturation state, a measure of the availability of aragonite (a form of calcium carbonate). Aragonite saturation &lt;1.0 indicates relatively acidified, corrosive conditions that are stressful for many CCE species, particularly shell-forming invertebrates. OA impacts on these species can propagate through marine food webs and potentially affect fisheries (Marshall et al. 2017). Aragonite saturation states tend to be lowest during spring and summer upwelling, and highest in winter.\n\n\n\n\nFeely, Richard A, Christopher L Sabine, J Martin Hernandez-Ayon, Debby Ianson, and Burke Hales. 2008. “Evidence for Upwelling of Corrosive\" Acidified\" Water onto the Continental Shelf.” Science 320 (5882): 1490–92.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Ocean Acidification</span>"
-    ]
-  },
-  {
-    "objectID": "FreshwaterHabitat.html",
-    "href": "FreshwaterHabitat.html",
-    "title": "8  Freshwater Habitat Indicators",
-    "section": "",
-    "text": "Freshwater habitat indicators are reported based on a hierarchical spatial framework. The framework facilitates comparisons of data at the right spatial scale for particular users, whether this be the entire California Current, ecoregions within the CCE, or smaller spatial units. The framework we use divides the region encompassed by the CCE into ecoregions (Fig. 1.1), and ecoregions into smaller physiographic units. Freshwater ecoregions are based on the biogeographic delineations in Abell et al. (2008), see also www.feow.org, who define six ecoregions for watersheds entering the California Current, three of which comprise the two largest watersheds directly entering the California Current (the Columbia and the Sacramento-San Joaquin Rivers). Within ecoregions, we summarized data at scales of evolutionary significant units (ESUs) and 8-field hydrologic unit classifications (HUC-8). Status and trends for all freshwater indicators are estimated using space-time models that account for spatial and temporal autocorrelation (Lindgren and Rue 2015).\n#or maybe Link this under Snowpack and Hydrology?",
-    "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Freshwater Habitat Indicators</span>"
     ]
   },
   {
     "objectID": "SnowWaterEquivalent.html",
     "href": "SnowWaterEquivalent.html",
-    "title": "9  Snow-water equivalent",
+    "title": "4  Snow-water equivalent",
     "section": "",
     "text": "Snow-water equivalent (SWE) is measured using data from the California Department of Water Resources snow survey program (California Data Exchange Center, cdec.water.ca.gov) and The Natural Resources Conservation Service’s SNOTEL sites across Washington, Oregon, California and Idaho. Snow data are converted into SWEs based on the weight of samples collected at regular intervals using a standardized protocol. Measurements on April 1 are considered the best indicator of maximum extent of SWE; thereafter snow tends to melt rather than accumulate.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Snow-water equivalent</span>"
+      "Climate and Oceans",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Snow-water equivalent</span>"
     ]
   },
   {
     "objectID": "MaximumStreamTemperature.html",
     "href": "MaximumStreamTemperature.html",
-    "title": "10  Maximum Stream Temperatures",
+    "title": "5  Maximum Stream Temperatures",
     "section": "",
     "text": "Mean maximum stream temperatures in August were determined from 446 USGS gauges with temperature monitoring capability. While these gauges did not necessarily operate simultaneously throughout the period of record, at least two gauges provided data each year in all ecoregions. Stream temperature records are limited in California, so two ecoregions (Sacramento/San Joaquin and Southern California Bight-Baja) were combined. Maximum temperatures exhibit strong ecoregional differences in absolute temperature (for example, Salish Sea and Washington Coast streams are much cooler on average than California streams).",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Maximum Stream Temperatures</span>"
+      "Climate and Oceans",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Maximum Stream Temperatures</span>"
     ]
   },
   {
     "objectID": "Streamflow.html",
     "href": "Streamflow.html",
-    "title": "11  Streamflow",
+    "title": "6  Streamflow",
     "section": "",
     "text": "Flow is derived from active USGS gages with records that are of at least 30 years’ duration (waterdata.usgs.gov/nwis/sw). Daily means from 213 gauges were used to calculate annual 1-day maximum and 7-day minimum flows. These indicators correspond to flow parameters to which salmon populations are most sensitive. We use standardized anomalies of streamflow time series from individual gages.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Streamflow</span>"
+      "Climate and Oceans",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Streamflow</span>"
+    ]
+  },
+  {
+    "objectID": "DissolvedOxygen.html",
+    "href": "DissolvedOxygen.html",
+    "title": "7  Dissolved Oxygen",
+    "section": "",
+    "text": "Nearshore dissolved oxygen (DO) depends on many processes, including currents, upwelling, air–sea exchange, and community-level production and respiration in the water column and benthos. DO is required for organismal respiration; low DO can compress habitat and cause stress or die-offs for sensitive species. Waters with DO levels &lt;1.4 mL/L (~ 2 mg/L, note unit change) are considered to be hypoxic; such conditions may occur on the shelf following the onset of spring upwelling, and continue into the summer and early fall months until the fall transition vertically mixes shelf waters. Upwelling-driven hypoxia occurs because upwelled water from deeper ocean sources tends to be low in DO, and microbial decomposition of organic matter in the summer and fall increases overall system respiration and oxygen consumption, particularly closer to the seafloor (Chan et al. (2008)).\n\n\n\n\nChan, Francis, JA Barth, J Lubchenco, A Kirincich, H Weeks, William T Peterson, and BA Menge. 2008. “Emergence of Anoxia in the California Current Large Marine Ecosystem.” Science 319 (5865): 920–20.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Dissolved Oxygen</span>"
+    ]
+  },
+  {
+    "objectID": "OceanAcidification.html",
+    "href": "OceanAcidification.html",
+    "title": "8  Ocean Acidification",
+    "section": "",
+    "text": "Ocean acidification (OA), which occurs when atmospheric CO2 dissolves into seawater, reduces seawater pH and carbonate ion levels. Upwelling transports hypoxic, acidified waters from deeper offshore onto the continental shelf, where increased community-level metabolic activity can further exacerbate OA (Feely et al. (2008)). A key indicator of OA is aragonite saturation state, a measure of the availability of aragonite (a form of calcium carbonate). Aragonite saturation &lt;1.0 indicates relatively acidified, corrosive conditions that are stressful for many CCE species, particularly shell-forming invertebrates. OA impacts on these species can propagate through marine food webs and potentially affect fisheries (Marshall et al. 2017). Aragonite saturation states tend to be lowest during spring and summer upwelling, and highest in winter.\n\n\n\n\nFeely, Richard A, Christopher L Sabine, J Martin Hernandez-Ayon, Debby Ianson, and Burke Hales. 2008. “Evidence for Upwelling of Corrosive\" Acidified\" Water onto the Continental Shelf.” Science 320 (5882): 1490–92.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Ocean Acidification</span>"
+    ]
+  },
+  {
+    "objectID": "FreshwaterHabitat.html",
+    "href": "FreshwaterHabitat.html",
+    "title": "9  Freshwater Habitat Indicators",
+    "section": "",
+    "text": "Freshwater habitat indicators are reported based on a hierarchical spatial framework. The framework facilitates comparisons of data at the right spatial scale for particular users, whether this be the entire California Current, ecoregions within the CCE, or smaller spatial units. The framework we use divides the region encompassed by the CCE into ecoregions (Fig. 1.1), and ecoregions into smaller physiographic units. Freshwater ecoregions are based on the biogeographic delineations in Abell et al. (2008), see also www.feow.org, who define six ecoregions for watersheds entering the California Current, three of which comprise the two largest watersheds directly entering the California Current (the Columbia and the Sacramento-San Joaquin Rivers). Within ecoregions, we summarized data at scales of evolutionary significant units (ESUs) and 8-field hydrologic unit classifications (HUC-8). Status and trends for all freshwater indicators are estimated using space-time models that account for spatial and temporal autocorrelation (Lindgren and Rue 2015).\n#or maybe Link this under Snowpack and Hydrology?",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Freshwater Habitat Indicators</span>"
+    ]
+  },
+  {
+    "objectID": "Upwelling.html",
+    "href": "Upwelling.html",
+    "title": "10  Upwelling",
+    "section": "",
+    "text": "The CCE is an upwelling dominated system, with the interaction between upwelling, stratification, and source water properties controlling much of coastal temperatures, nutrient input, and overall productivity. Time series of the upwelling indices CUTI and BUTI provide information on upwelling strength at sub-seasonal frequency and upwelling phenology, and allow interannual comparisons of seasonal upwelling timing and frequency. Additionally, the calculation of cumulative upwelling allows for a comparison of the total amount of upwelling a region receives during the entire course of the year. Cumulative upwelling is calculated as the daily summation of upwelling values (additive for positive upwelling, and subtractive for negative upwelling - aka downwelling) starting on Jan 1 and ending on Dec 31st.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Upwelling</span>"
+    ]
+  },
+  {
+    "objectID": "HabitatCompressionIndex.html",
+    "href": "HabitatCompressionIndex.html",
+    "title": "11  Habitat Compression Index",
+    "section": "",
+    "text": "Spatial variability in patterns of upwelling, including the distribution of upwelled water and associated development of hydrographic fronts, is important for ecosystem monitoring and assessment of marine heatwaves and ecosystem shifts that can impact coastal fishing communities. Coastal upwelling creates a band of relatively cool coastal water, which is suitable habitat for a diverse and productive portion of the CCE food web. Monitoring the area and variability of upwelling habitat provides regional measures of habitat compression—an indicator to monitor the incursion of offshore warming (e.g., from heatwaves or reduced upwelling conditions) over shelf waters, which relates to shifts in the pelagic forage species community in space and time. Santora et al. (2020) applied principles of ecosystem oceanography and integration of fisheries surveys to develop the Habitat Compression Index (HCI) to quantify how offshore warming during the 2013–2016 marine heatwave and previous warming events restricted the cool upwelling habitat to a narrower-than-normal band along the coast. This compression of habitat consequently altered prey community composition and distribution, spatial aggregation patterns of top predators, and contributed to increased rates of whale entanglements in fixed fishing gear.\nHCI is derived from the CCE configuration of the Regional Ocean Modeling System (ROMS) model with data assimilation (Neveu et al. (2016)), and is estimated in four biogeographic provinces within the CCE: 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. HCI is defined as the area of monthly averaged ROMS model temperatures at a depth of 2 m that fall below a temperature threshold. Each region/month has a unique temperature threshold, based on its distinct historic climatology.\n#could replace highlighted text with “The Habitat Compression Index (HCI) is a model-derived measure of the area of cool habitat along the coast, which is suitable for a diverse and productive portion of the CCE food web. HCI is estimated in four biogeographic provinces within the CCE: : 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. Methodological details are available [here].”\n\n\n\n\nNeveu, Emilie, Andrew M Moore, Christopher A Edwards, Jérôme Fiechter, Patrick Drake, William J Crawford, Michael G Jacox, and Emma Nuss. 2016. “An Historical Analysis of the California Current Circulation Using ROMS 4D-Var: System Configuration and Diagnostics.” Ocean Modelling 99: 133–51.\n\n\nSantora, Jarrod A, Nathan J Mantua, Isaac D Schroeder, John C Field, Elliott L Hazen, Steven J Bograd, William J Sydeman, et al. 2020. “Habitat Compression and Ecosystem Shifts as Potential Links Between Marine Heatwave and Record Whale Entanglements.” Nature Communications 11 (1): 1–12.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Habitat Compression Index</span>"
     ]
   },
   {
@@ -126,6 +136,7 @@
     "section": "",
     "text": "Copepod biomass anomalies represent variation in northern copepods (cold-water crustacean zooplankton species rich in wax esters and fatty acids) and southern copepods (smaller species with lower fat content and nutritional quality). Northern copepods usually dominate the summer zooplankton community along the Newport Line, while southern species dominate winter. Positive northern copepod anomalies generally correlate with stronger returns of Chinook salmon to Bonneville Dam and coho salmon to coastal Oregon (Peterson et al. (2014)). Historically, northern copepods typically have been favored by La Niña and negative PDO conditions (Keister et al. (2011); Fisher, Peterson, and Rykaczewski (2015)).\n\n\n\n\nFisher, Jennifer L, William T Peterson, and Ryan R Rykaczewski. 2015. “The Impact of El Niño Events on the Pelagic Food Chain in the Northern California Current.” Global Change Biology 21 (12): 4401–14.\n\n\nKeister, Julie E, E Di Lorenzo, CA Morgan, Vincent Combes, and WT Peterson. 2011. “Zooplankton Species Composition Is Linked to Ocean Transport in the Northern California Current.” Global Change Biology 17 (7): 2498–2511.\n\n\nPeterson, William T, Jennifer L Fisher, Jay O Peterson, Cheryl A Morgan, Brian J Burke, and Kurt L Fresh. 2014. “Applied Fisheries Oceanography: Ecosystem Indicators of Ocean Conditions Inform Fisheries Management in the California Current.” Oceanography 27 (4): 80–89.",
     "crumbs": [
+      "Focal Components of Ecological Integrity",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Copepods</span>"
     ]
   },
@@ -136,6 +147,7 @@
     "section": "",
     "text": "Krill are among the most important prey in the CCE. The krill Euphausia pacifica is sampled year-round along the Trinidad Head Line off northern California (Fig. 1.1). Mean adult length and total biomass of E. pacifica sampled off the Trinidad Head Line indicate productivity at the base of the food web, krill condition, and energy content for predators (Robertson and Bjorkstedt (2020)).\nKrill are also detected acoustically during the Joint U.S.-Canada Pacific Hake Ecosystem and Acoustic Trawl (PHEAT) Survey, conducted between June-September from Point Conception, California to Dixon Entrance, British Columbia. The coastwide nautical-area-backscattering coefficient (NASC) represents relative krill abundance observed between 50-300 m water depth (see Phillips et al. 2022 for methodology).\n\n\n\n\nRobertson, Roxanne R, and Eric P Bjorkstedt. 2020. “Climate-Driven Variability in Euphausia Pacifica Size Distributions Off Northern California.” Progress in Oceanography 188: 102412.",
     "crumbs": [
+      "Focal Components of Ecological Integrity",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Krill</span>"
     ]
   },
@@ -146,6 +158,7 @@
     "section": "",
     "text": "In addition to being a lipid-rich prey source, preliminary analyses suggest the megalopae index from Oregon light traps is strongly correlated with commercial landings of Dungeness crab four years later (Shanks et al., in prep). Note that commercial catches are limited to males that are roughly 4 years old, so landings can also be interpreted as the 4-year-old year class of the population. There was also a noted difference in the relationship between heatwave and non-heatwave years. Within this time series, there were three years (2015, 2016, and 2019) when marine heat waves occurred over the continental shelf off Oregon. These results suggest that the size of the Dungeness crab population is strongly influenced by the annual larval success, as indicated by the number of megalopae caught; and in years with marine heat waves, recruitment from megalopae to 4-year-old crabs is higher. While only Oregon data are shown, the light trap data is positively correlated with commercial catch in California, but is not correlated with catches in Washington. This index stems from a collaborative effort between the Oregon Institute of Marine Biology (OIMB, University of Oregon) and ODFW and warrants further attention in the future as an additional index of prey availability in this region.",
     "crumbs": [
+      "Focal Components of Ecological Integrity",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Dungeness crab megalopae</span>"
     ]
   },
@@ -156,6 +169,7 @@
     "section": "",
     "text": "The Northern CCE survey (known as the Juvenile Salmon Ocean Ecology Survey, JSOES) occurs in June and targets juvenile salmon in surface waters off Oregon and Washington. It also collects adult and juvenile (age 1+) pelagic forage fishes, market squid, and gelatinous zooplankton with regularity. A Nordic 264 rope trawl is towed for 15-30 min at approximately 6.5 km/hr. The gear is fished during daylight hours in near-surface (upper 20 m) waters, which is appropriate for targeting juvenile salmon.\nSeveral other taxa collected by the June JSOES surface trawl are noted in terms of their relative prevalence (proportion of stations where they were caught), but are not considered to be sampled quantitatively due to their behavior and mesh size of sampling gear.\nPelagic forage data from the Northern CCE are provided by B. Burke, NMFS/NWFSC and C. Morgan, OSU/CIMRS. Data are derived from surface trawls taken during the NWFSC Juvenile Salmon & Ocean Ecosystem Survey (JSOES; https://www.fisheries.noaa.gov/west-coast/science-data/ocean-ecosystem-indicators-pacific-salmon-marine-survival-northern). Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.\n#add citations for JSOES here",
     "crumbs": [
+      "Focal Components of Ecological Integrity",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Northern California Current Forage</span>"
     ]
   },
@@ -166,6 +180,7 @@
     "section": "",
     "text": "The Central CCE forage survey (known as the Rockfish Recruitment and Ecosystem Assessment Survey, RREAS) samples much of the West Coast each May to mid-June, using midwater trawls sampling between 30 and 45 m depths during nighttime hours. The survey targets young-of-the-year (YOY) rockfish species and a variety of other YOY and adult forage species, market squid, adult krill, and gelatinous zooplankton. Juvenile rockfish, anchovy, krill, and market squid are among the most important prey for CCE predators (Szoboszlai et al. (2015)). Time series presented here are from the “Core Area” of that survey, centered off Monterey Bay. Catch data were standardized by using a delta-GLM to estimate year effects while accounting for spatial and temporal covariates to yield relative abundance indices, shown with their approximate 95% confidence limits (Santora et al. (2021)). The 2023 survey effort in the “Core Area” was comparable to previous years, apart from 2020.\nPelagic forage data from the Central CCE were provided by J. Field, T. Rogers, K. Sakuma, and J. Santora, NMFS/SWFSC, from the SWFSC Rockfish Recruitment and Ecosystem Assessment Survey (https://go.usa.gov/xGMfR). Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.\n\n\n\n\nSantora, Jarrod A, Tanya L Rogers, Megan A Cimino, Keith M Sakuma, Keith D Hanson, EJ Dick, Jaime Jahncke, Pete Warzybok, and John C Field. 2021. “Diverse Integrated Ecosystem Approach Overcomes Pandemic-Related Fisheries Monitoring Challenges.” Nature Communications 12 (1): 1–10.\n\n\nSzoboszlai, Amber I, Julie A Thayer, Spencer A Wood, William J Sydeman, and Laura E Koehn. 2015. “Forage Species in Predator Diets: Synthesis of Data from the California Current.” Ecological Informatics 29: 45–56.",
     "crumbs": [
+      "Focal Components of Ecological Integrity",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Central California Current Forage</span>"
     ]
   },
@@ -176,6 +191,7 @@
     "section": "",
     "text": "Abundance indicators for forage in the Southern CCE come from fish and squid larvae collected in the spring (May-June) across all core stations of the CalCOFI survey. Larval data are indicators of the relative regional abundances of adult forage fish, such as sardines and anchovy, and other species, including certain groundfish, market squid, and mesopelagic fishes. The survey samples a variety of fish and invertebrate larvae (&lt;5 d old) from several taxonomic and functional groups, collected via oblique vertical tows of fine mesh Bongo nets to 212 m depth. In 2020, the spring larval survey was canceled due to COVID-19, and thus no data are available for that year, but survey operations resumed in 2021.\nPelagic forage larvae data from the Southern CCE were provided by A. Thompson, NMFS/SWFSC, from spring CalCOFI surveys (https://calcofi.org/); data were not collected in 2020 due to survey cancellations associated with the COVID pandemic. Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.\n#add SCC larval fish references",
     "crumbs": [
+      "Focal Components of Ecological Integrity",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Southern California Current Forage</span>"
     ]
   }
