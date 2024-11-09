@@ -42,91 +42,91 @@
     ]
   },
   {
-    "objectID": "SnowWaterEquivalent.html",
-    "href": "SnowWaterEquivalent.html",
-    "title": "4  Snow-water equivalent",
-    "section": "",
-    "text": "Snow-water equivalent (SWE) is measured using data from the California Department of Water Resources snow survey program (California Data Exchange Center, cdec.water.ca.gov) and The Natural Resources Conservation Service’s SNOTEL sites across Washington, Oregon, California and Idaho. Snow data are converted into SWEs based on the weight of samples collected at regular intervals using a standardized protocol. Measurements on April 1 are considered the best indicator of maximum extent of SWE; thereafter snow tends to melt rather than accumulate.",
-    "crumbs": [
-      "Climate and Oceans",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Snow-water equivalent</span>"
-    ]
-  },
-  {
-    "objectID": "MaximumStreamTemperature.html",
-    "href": "MaximumStreamTemperature.html",
-    "title": "5  Maximum Stream Temperatures",
-    "section": "",
-    "text": "Mean maximum stream temperatures in August were determined from 446 USGS gauges with temperature monitoring capability. While these gauges did not necessarily operate simultaneously throughout the period of record, at least two gauges provided data each year in all ecoregions. Stream temperature records are limited in California, so two ecoregions (Sacramento/San Joaquin and Southern California Bight-Baja) were combined. Maximum temperatures exhibit strong ecoregional differences in absolute temperature (for example, Salish Sea and Washington Coast streams are much cooler on average than California streams).",
-    "crumbs": [
-      "Climate and Oceans",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Maximum Stream Temperatures</span>"
-    ]
-  },
-  {
-    "objectID": "Streamflow.html",
-    "href": "Streamflow.html",
-    "title": "6  Streamflow",
-    "section": "",
-    "text": "Flow is derived from active USGS gages with records that are of at least 30 years’ duration (waterdata.usgs.gov/nwis/sw). Daily means from 213 gauges were used to calculate annual 1-day maximum and 7-day minimum flows. These indicators correspond to flow parameters to which salmon populations are most sensitive. We use standardized anomalies of streamflow time series from individual gages.",
-    "crumbs": [
-      "Climate and Oceans",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Streamflow</span>"
-    ]
-  },
-  {
-    "objectID": "DissolvedOxygen.html",
-    "href": "DissolvedOxygen.html",
-    "title": "7  Dissolved Oxygen",
-    "section": "",
-    "text": "Nearshore dissolved oxygen (DO) depends on many processes, including currents, upwelling, air–sea exchange, and community-level production and respiration in the water column and benthos. DO is required for organismal respiration; low DO can compress habitat and cause stress or die-offs for sensitive species. Waters with DO levels &lt;1.4 mL/L (~ 2 mg/L, note unit change) are considered to be hypoxic; such conditions may occur on the shelf following the onset of spring upwelling, and continue into the summer and early fall months until the fall transition vertically mixes shelf waters. Upwelling-driven hypoxia occurs because upwelled water from deeper ocean sources tends to be low in DO, and microbial decomposition of organic matter in the summer and fall increases overall system respiration and oxygen consumption, particularly closer to the seafloor (Chan et al. (2008)).\n\n\n\n\nChan, Francis, JA Barth, J Lubchenco, A Kirincich, H Weeks, William T Peterson, and BA Menge. 2008. “Emergence of Anoxia in the California Current Large Marine Ecosystem.” Science 319 (5865): 920–20.",
-    "crumbs": [
-      "Climate and Oceans",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Dissolved Oxygen</span>"
-    ]
-  },
-  {
-    "objectID": "OceanAcidification.html",
-    "href": "OceanAcidification.html",
-    "title": "8  Ocean Acidification",
-    "section": "",
-    "text": "Ocean acidification (OA), which occurs when atmospheric CO2 dissolves into seawater, reduces seawater pH and carbonate ion levels. Upwelling transports hypoxic, acidified waters from deeper offshore onto the continental shelf, where increased community-level metabolic activity can further exacerbate OA (Feely et al. (2008)). A key indicator of OA is aragonite saturation state, a measure of the availability of aragonite (a form of calcium carbonate). Aragonite saturation &lt;1.0 indicates relatively acidified, corrosive conditions that are stressful for many CCE species, particularly shell-forming invertebrates. OA impacts on these species can propagate through marine food webs and potentially affect fisheries (Marshall et al. 2017). Aragonite saturation states tend to be lowest during spring and summer upwelling, and highest in winter.\n\n\n\n\nFeely, Richard A, Christopher L Sabine, J Martin Hernandez-Ayon, Debby Ianson, and Burke Hales. 2008. “Evidence for Upwelling of Corrosive\" Acidified\" Water onto the Continental Shelf.” Science 320 (5882): 1490–92.",
-    "crumbs": [
-      "Climate and Oceans",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Ocean Acidification</span>"
-    ]
-  },
-  {
-    "objectID": "FreshwaterHabitat.html",
-    "href": "FreshwaterHabitat.html",
-    "title": "9  Freshwater Habitat Indicators",
-    "section": "",
-    "text": "Freshwater habitat indicators are reported based on a hierarchical spatial framework. The framework facilitates comparisons of data at the right spatial scale for particular users, whether this be the entire California Current, ecoregions within the CCE, or smaller spatial units. The framework we use divides the region encompassed by the CCE into ecoregions (Fig. 1.1), and ecoregions into smaller physiographic units. Freshwater ecoregions are based on the biogeographic delineations in Abell et al. (2008), see also www.feow.org, who define six ecoregions for watersheds entering the California Current, three of which comprise the two largest watersheds directly entering the California Current (the Columbia and the Sacramento-San Joaquin Rivers). Within ecoregions, we summarized data at scales of evolutionary significant units (ESUs) and 8-field hydrologic unit classifications (HUC-8). Status and trends for all freshwater indicators are estimated using space-time models that account for spatial and temporal autocorrelation (Lindgren and Rue 2015).\n#or maybe Link this under Snowpack and Hydrology?",
-    "crumbs": [
-      "Climate and Oceans",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Freshwater Habitat Indicators</span>"
-    ]
-  },
-  {
     "objectID": "Upwelling.html",
     "href": "Upwelling.html",
-    "title": "10  Upwelling",
+    "title": "4  Upwelling",
     "section": "",
     "text": "The CCE is an upwelling dominated system, with the interaction between upwelling, stratification, and source water properties controlling much of coastal temperatures, nutrient input, and overall productivity. Time series of the upwelling indices CUTI and BUTI provide information on upwelling strength at sub-seasonal frequency and upwelling phenology, and allow interannual comparisons of seasonal upwelling timing and frequency. Additionally, the calculation of cumulative upwelling allows for a comparison of the total amount of upwelling a region receives during the entire course of the year. Cumulative upwelling is calculated as the daily summation of upwelling values (additive for positive upwelling, and subtractive for negative upwelling - aka downwelling) starting on Jan 1 and ending on Dec 31st.",
     "crumbs": [
       "Climate and Oceans",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Upwelling</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Upwelling</span>"
     ]
   },
   {
     "objectID": "HabitatCompressionIndex.html",
     "href": "HabitatCompressionIndex.html",
-    "title": "11  Habitat Compression Index",
+    "title": "5  Habitat Compression Index",
     "section": "",
-    "text": "Spatial variability in patterns of upwelling, including the distribution of upwelled water and associated development of hydrographic fronts, is important for ecosystem monitoring and assessment of marine heatwaves and ecosystem shifts that can impact coastal fishing communities. Coastal upwelling creates a band of relatively cool coastal water, which is suitable habitat for a diverse and productive portion of the CCE food web. Monitoring the area and variability of upwelling habitat provides regional measures of habitat compression—an indicator to monitor the incursion of offshore warming (e.g., from heatwaves or reduced upwelling conditions) over shelf waters, which relates to shifts in the pelagic forage species community in space and time. Santora et al. (2020) applied principles of ecosystem oceanography and integration of fisheries surveys to develop the Habitat Compression Index (HCI) to quantify how offshore warming during the 2013–2016 marine heatwave and previous warming events restricted the cool upwelling habitat to a narrower-than-normal band along the coast. This compression of habitat consequently altered prey community composition and distribution, spatial aggregation patterns of top predators, and contributed to increased rates of whale entanglements in fixed fishing gear.\nHCI is derived from the CCE configuration of the Regional Ocean Modeling System (ROMS) model with data assimilation (Neveu et al. (2016)), and is estimated in four biogeographic provinces within the CCE: 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. HCI is defined as the area of monthly averaged ROMS model temperatures at a depth of 2 m that fall below a temperature threshold. Each region/month has a unique temperature threshold, based on its distinct historic climatology.\n#could replace highlighted text with “The Habitat Compression Index (HCI) is a model-derived measure of the area of cool habitat along the coast, which is suitable for a diverse and productive portion of the CCE food web. HCI is estimated in four biogeographic provinces within the CCE: : 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. Methodological details are available [here].”\n\n\n\n\nNeveu, Emilie, Andrew M Moore, Christopher A Edwards, Jérôme Fiechter, Patrick Drake, William J Crawford, Michael G Jacox, and Emma Nuss. 2016. “An Historical Analysis of the California Current Circulation Using ROMS 4D-Var: System Configuration and Diagnostics.” Ocean Modelling 99: 133–51.\n\n\nSantora, Jarrod A, Nathan J Mantua, Isaac D Schroeder, John C Field, Elliott L Hazen, Steven J Bograd, William J Sydeman, et al. 2020. “Habitat Compression and Ecosystem Shifts as Potential Links Between Marine Heatwave and Record Whale Entanglements.” Nature Communications 11 (1): 1–12.",
+    "text": "Spatial variability in patterns of upwelling, including the distribution of upwelled water and associated development of hydrographic fronts, is important for ecosystem monitoring and assessment of marine heatwaves and ecosystem shifts that can impact coastal fishing communities. Coastal upwelling creates a band of relatively cool coastal water, which is suitable habitat for a diverse and productive portion of the CCE food web. Monitoring the area and variability of upwelling habitat provides regional measures of habitat compression—an indicator to monitor the incursion of offshore warming (e.g., from heatwaves or reduced upwelling conditions) over shelf waters, which relates to shifts in the pelagic forage species community in space and time. Santora et al. (2020) applied principles of ecosystem oceanography and integration of fisheries surveys to develop the Habitat Compression Index (HCI) to quantify how offshore warming during the 2013–2016 marine heatwave and previous warming events restricted the cool upwelling habitat to a narrower-than-normal band along the coast. This compression of habitat consequently altered prey community composition and distribution, spatial aggregation patterns of top predators, and contributed to increased rates of whale entanglements in fixed fishing gear.\nHCI is derived from the CCE configuration of the Regional Ocean Modeling System (ROMS) model with data assimilation (Neveu et al. (2016)), and is estimated in four biogeographic provinces within the CCE: 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. HCI is defined as the area of monthly averaged ROMS model temperatures at a depth of 2 m that fall below a temperature threshold. Each region/month has a unique temperature threshold, based on its distinct historic climatology.\nNote: perhaps we could replace highlighted text with “The Habitat Compression Index (HCI) is a model-derived measure of the area of cool habitat along the coast, which is suitable for a diverse and productive portion of the CCE food web. HCI is estimated in four biogeographic provinces within the CCE: : 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. Methodological details are available [here].”\n\n\n\n\nNeveu, Emilie, Andrew M Moore, Christopher A Edwards, Jérôme Fiechter, Patrick Drake, William J Crawford, Michael G Jacox, and Emma Nuss. 2016. “An Historical Analysis of the California Current Circulation Using ROMS 4D-Var: System Configuration and Diagnostics.” Ocean Modelling 99: 133–51.\n\n\nSantora, Jarrod A, Nathan J Mantua, Isaac D Schroeder, John C Field, Elliott L Hazen, Steven J Bograd, William J Sydeman, et al. 2020. “Habitat Compression and Ecosystem Shifts as Potential Links Between Marine Heatwave and Record Whale Entanglements.” Nature Communications 11 (1): 1–12.",
     "crumbs": [
       "Climate and Oceans",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Habitat Compression Index</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitat Compression Index</span>"
+    ]
+  },
+  {
+    "objectID": "SnowWaterEquivalent.html",
+    "href": "SnowWaterEquivalent.html",
+    "title": "6  Snow-water equivalent",
+    "section": "",
+    "text": "Snow-water equivalent (SWE) is measured using data from the California Department of Water Resources snow survey program (California Data Exchange Center, cdec.water.ca.gov) and The Natural Resources Conservation Service’s SNOTEL sites across Washington, Oregon, California and Idaho. Snow data are converted into SWEs based on the weight of samples collected at regular intervals using a standardized protocol. Measurements on April 1 are considered the best indicator of maximum extent of SWE; thereafter snow tends to melt rather than accumulate.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Snow-water equivalent</span>"
+    ]
+  },
+  {
+    "objectID": "MaximumStreamTemperature.html",
+    "href": "MaximumStreamTemperature.html",
+    "title": "7  Maximum Stream Temperatures",
+    "section": "",
+    "text": "Mean maximum stream temperatures in August were determined from 446 USGS gauges with temperature monitoring capability. While these gauges did not necessarily operate simultaneously throughout the period of record, at least two gauges provided data each year in all ecoregions. Stream temperature records are limited in California, so two ecoregions (Sacramento/San Joaquin and Southern California Bight-Baja) were combined. Maximum temperatures exhibit strong ecoregional differences in absolute temperature (for example, Salish Sea and Washington Coast streams are much cooler on average than California streams).",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Maximum Stream Temperatures</span>"
+    ]
+  },
+  {
+    "objectID": "Streamflow.html",
+    "href": "Streamflow.html",
+    "title": "8  Streamflow",
+    "section": "",
+    "text": "Flow is derived from active USGS gages with records that are of at least 30 years’ duration (waterdata.usgs.gov/nwis/sw). Daily means from 213 gauges were used to calculate annual 1-day maximum and 7-day minimum flows. These indicators correspond to flow parameters to which salmon populations are most sensitive. We use standardized anomalies of streamflow time series from individual gages.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Streamflow</span>"
+    ]
+  },
+  {
+    "objectID": "DissolvedOxygen.html",
+    "href": "DissolvedOxygen.html",
+    "title": "9  Dissolved Oxygen",
+    "section": "",
+    "text": "Nearshore dissolved oxygen (DO) depends on many processes, including currents, upwelling, air–sea exchange, and community-level production and respiration in the water column and benthos. DO is required for organismal respiration; low DO can compress habitat and cause stress or die-offs for sensitive species. Waters with DO levels &lt;1.4 mL/L (~ 2 mg/L, note unit change) are considered to be hypoxic; such conditions may occur on the shelf following the onset of spring upwelling, and continue into the summer and early fall months until the fall transition vertically mixes shelf waters. Upwelling-driven hypoxia occurs because upwelled water from deeper ocean sources tends to be low in DO, and microbial decomposition of organic matter in the summer and fall increases overall system respiration and oxygen consumption, particularly closer to the seafloor (Chan et al. (2008)).\n\n\n\n\nChan, Francis, JA Barth, J Lubchenco, A Kirincich, H Weeks, William T Peterson, and BA Menge. 2008. “Emergence of Anoxia in the California Current Large Marine Ecosystem.” Science 319 (5865): 920–20.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Dissolved Oxygen</span>"
+    ]
+  },
+  {
+    "objectID": "OceanAcidification.html",
+    "href": "OceanAcidification.html",
+    "title": "10  Ocean Acidification",
+    "section": "",
+    "text": "Ocean acidification (OA), which occurs when atmospheric CO2 dissolves into seawater, reduces seawater pH and carbonate ion levels. Upwelling transports hypoxic, acidified waters from deeper offshore onto the continental shelf, where increased community-level metabolic activity can further exacerbate OA (Feely et al. (2008)). A key indicator of OA is aragonite saturation state, a measure of the availability of aragonite (a form of calcium carbonate). Aragonite saturation &lt;1.0 indicates relatively acidified, corrosive conditions that are stressful for many CCE species, particularly shell-forming invertebrates. OA impacts on these species can propagate through marine food webs and potentially affect fisheries (Marshall et al. 2017). Aragonite saturation states tend to be lowest during spring and summer upwelling, and highest in winter.\n\n\n\n\nFeely, Richard A, Christopher L Sabine, J Martin Hernandez-Ayon, Debby Ianson, and Burke Hales. 2008. “Evidence for Upwelling of Corrosive\" Acidified\" Water onto the Continental Shelf.” Science 320 (5882): 1490–92.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Ocean Acidification</span>"
+    ]
+  },
+  {
+    "objectID": "FreshwaterHabitat.html",
+    "href": "FreshwaterHabitat.html",
+    "title": "11  Freshwater Habitat Indicators",
+    "section": "",
+    "text": "Freshwater habitat indicators are reported based on a hierarchical spatial framework. The framework facilitates comparisons of data at the right spatial scale for particular users, whether this be the entire California Current, ecoregions within the CCE, or smaller spatial units. The framework we use divides the region encompassed by the CCE into ecoregions (Fig. 1.1), and ecoregions into smaller physiographic units. Freshwater ecoregions are based on the biogeographic delineations in Abell et al. (2008), see also www.feow.org, who define six ecoregions for watersheds entering the California Current, three of which comprise the two largest watersheds directly entering the California Current (the Columbia and the Sacramento-San Joaquin Rivers). Within ecoregions, we summarized data at scales of evolutionary significant units (ESUs) and 8-field hydrologic unit classifications (HUC-8). Status and trends for all freshwater indicators are estimated using space-time models that account for spatial and temporal autocorrelation (Lindgren and Rue 2015).\n#or maybe Link this under Snowpack and Hydrology?",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Freshwater Habitat Indicators</span>"
     ]
   },
   {
