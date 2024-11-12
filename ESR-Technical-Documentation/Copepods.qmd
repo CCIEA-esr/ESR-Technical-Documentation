@@ -1,3 +1,5 @@
 # Copepods
 
 Copepod biomass anomalies represent variation in northern copepods (cold-water crustacean zooplankton species rich in wax esters and fatty acids) and southern copepods (smaller species with lower fat content and nutritional quality). Northern copepods usually dominate the summer zooplankton community along the Newport Line, while southern species dominate winter. Positive northern copepod anomalies generally correlate with stronger returns of Chinook salmon to Bonneville Dam and coho salmon to coastal Oregon (@peterson2014applied). Historically, northern copepods typically have been favored by La Niña and negative PDO conditions (@keister2011zooplankton; @fisher2015impact).
+
+Copepod biomass anomaly data are provided by J. Fisher, NMFS/NWFSC.

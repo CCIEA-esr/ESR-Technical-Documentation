@@ -33,34 +33,34 @@
   {
     "objectID": "MarineHeatwaves.html",
     "href": "MarineHeatwaves.html",
-    "title": "3  Marine Heatwaves",
+    "title": "4  Marine Heatwaves",
     "section": "",
-    "text": "There is growing recognition that marine heatwaves can have strongly disruptive impacts on the CCE (e.g., Morgan et al. 2019). Based on an analysis of sea surface temperature anomalies (SSTa) obtained from satellite measurements (OISST; we define marine heatwaves as 1) times when normalized SSTa &gt;1.29 s.d. (90th percentile) of the long-term SSTa time series at a location, and 2) lasts for &gt;5 days; which are analogous to the thresholds suggested in Hobday et al. (2016). Here, we further report on statistics concerning large heatwaves (LHW) which were tracked through space and time, with LHW defined as those heatwaves with an area &gt; 400,000 km2 (these denote the top 20% of all heatwaves by area as measured since 1982 when satellite data became available for tracking; Leising, in revision).\nNote: Need to work in climatology from this Note ” the underlying climatology used for SST anomaly analysis has changed from 1982-2010, to now encompass 1982-2020; hence small changes in the retrospective analysis of tracked heatwaves reported more recently as compared to previous reports.”",
+    "text": "There is growing recognition that marine heatwaves can have strongly disruptive impacts on the CCE (e.g., Morgan et al. 2019). Based on an analysis of sea surface temperature anomalies (SSTa) obtained from satellite measurements (OISST); we define marine heatwaves as 1. times when normalized SSTa &gt;1.29 s.d. (90th percentile) of the long-term SSTa time series at a location, and 2. lasts for &gt;5 days; which are analogous to the thresholds suggested in Hobday et al. (2016). Here, we further report on statistics concerning large heatwaves (LHW) which were tracked through space and time, with LHW defined as those heatwaves with an area &gt; 400,000 km2 (these denote the top 20% of all heatwaves by area as measured since 1982 when satellite data became available for tracking; Leising, in revision).\nThe underlying climatology used for SST anomaly analysis has changed from 1982-2010, to now encompass 1982-2020; hence small changes in the retrospective analysis of tracked heatwaves reported more recently as compared to previous reports.",
     "crumbs": [
       "Climate and Oceans",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Marine Heatwaves</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Marine Heatwaves</span>"
     ]
   },
   {
     "objectID": "Upwelling.html",
     "href": "Upwelling.html",
-    "title": "4  Upwelling",
+    "title": "5  Upwelling",
     "section": "",
     "text": "The CCE is an upwelling dominated system, with the interaction between upwelling, stratification, and source water properties controlling much of coastal temperatures, nutrient input, and overall productivity. Time series of the upwelling indices CUTI and BUTI provide information on upwelling strength at sub-seasonal frequency and upwelling phenology, and allow interannual comparisons of seasonal upwelling timing and frequency. Additionally, the calculation of cumulative upwelling allows for a comparison of the total amount of upwelling a region receives during the entire course of the year. Cumulative upwelling is calculated as the daily summation of upwelling values (additive for positive upwelling, and subtractive for negative upwelling - aka downwelling) starting on Jan 1 and ending on Dec 31st.",
     "crumbs": [
       "Climate and Oceans",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Upwelling</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Upwelling</span>"
     ]
   },
   {
     "objectID": "HabitatCompressionIndex.html",
     "href": "HabitatCompressionIndex.html",
-    "title": "5  Habitat Compression Index",
+    "title": "6  Habitat Compression Index",
     "section": "",
     "text": "Spatial variability in patterns of upwelling, including the distribution of upwelled water and associated development of hydrographic fronts, is important for ecosystem monitoring and assessment of marine heatwaves and ecosystem shifts that can impact coastal fishing communities. Coastal upwelling creates a band of relatively cool coastal water, which is suitable habitat for a diverse and productive portion of the CCE food web. Monitoring the area and variability of upwelling habitat provides regional measures of habitat compression—an indicator to monitor the incursion of offshore warming (e.g., from heatwaves or reduced upwelling conditions) over shelf waters, which relates to shifts in the pelagic forage species community in space and time. Santora et al. (2020) applied principles of ecosystem oceanography and integration of fisheries surveys to develop the Habitat Compression Index (HCI) to quantify how offshore warming during the 2013–2016 marine heatwave and previous warming events restricted the cool upwelling habitat to a narrower-than-normal band along the coast. This compression of habitat consequently altered prey community composition and distribution, spatial aggregation patterns of top predators, and contributed to increased rates of whale entanglements in fixed fishing gear.\nHCI is derived from the CCE configuration of the Regional Ocean Modeling System (ROMS) model with data assimilation (Neveu et al. (2016)), and is estimated in four biogeographic provinces within the CCE: 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. HCI is defined as the area of monthly averaged ROMS model temperatures at a depth of 2 m that fall below a temperature threshold. Each region/month has a unique temperature threshold, based on its distinct historic climatology.\nNote: perhaps we could replace highlighted text with “The Habitat Compression Index (HCI) is a model-derived measure of the area of cool habitat along the coast, which is suitable for a diverse and productive portion of the CCE food web. HCI is estimated in four biogeographic provinces within the CCE: : 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. Methodological details are available [here].”\n\n\n\n\nNeveu, Emilie, Andrew M Moore, Christopher A Edwards, Jérôme Fiechter, Patrick Drake, William J Crawford, Michael G Jacox, and Emma Nuss. 2016. “An Historical Analysis of the California Current Circulation Using ROMS 4D-Var: System Configuration and Diagnostics.” Ocean Modelling 99: 133–51.\n\n\nSantora, Jarrod A, Nathan J Mantua, Isaac D Schroeder, John C Field, Elliott L Hazen, Steven J Bograd, William J Sydeman, et al. 2020. “Habitat Compression and Ecosystem Shifts as Potential Links Between Marine Heatwave and Record Whale Entanglements.” Nature Communications 11 (1): 1–12.",
     "crumbs": [
       "Climate and Oceans",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Habitat Compression Index</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Habitat Compression Index</span>"
     ]
   },
   {
@@ -77,23 +77,23 @@
   {
     "objectID": "MaximumStreamTemperature.html",
     "href": "MaximumStreamTemperature.html",
-    "title": "7  Maximum Stream Temperatures",
+    "title": "11  Maximum Stream Temperatures",
     "section": "",
     "text": "Mean maximum stream temperatures in August were determined from 446 USGS gauges with temperature monitoring capability. While these gauges did not necessarily operate simultaneously throughout the period of record, at least two gauges provided data each year in all ecoregions. Stream temperature records are limited in California, so two ecoregions (Sacramento/San Joaquin and Southern California Bight-Baja) were combined. Maximum temperatures exhibit strong ecoregional differences in absolute temperature (for example, Salish Sea and Washington Coast streams are much cooler on average than California streams).",
     "crumbs": [
       "Climate and Oceans",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Maximum Stream Temperatures</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Maximum Stream Temperatures</span>"
     ]
   },
   {
     "objectID": "Streamflow.html",
     "href": "Streamflow.html",
-    "title": "8  Streamflow",
+    "title": "12  Streamflow",
     "section": "",
     "text": "Flow is derived from active USGS gages with records that are of at least 30 years’ duration (waterdata.usgs.gov/nwis/sw). Daily means from 213 gauges were used to calculate annual 1-day maximum and 7-day minimum flows. These indicators correspond to flow parameters to which salmon populations are most sensitive. We use standardized anomalies of streamflow time series from individual gages.",
     "crumbs": [
       "Climate and Oceans",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Streamflow</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Streamflow</span>"
     ]
   },
   {
@@ -132,23 +132,23 @@
   {
     "objectID": "Copepods.html",
     "href": "Copepods.html",
-    "title": "12  Copepods",
+    "title": "13  Copepods",
     "section": "",
-    "text": "Copepod biomass anomalies represent variation in northern copepods (cold-water crustacean zooplankton species rich in wax esters and fatty acids) and southern copepods (smaller species with lower fat content and nutritional quality). Northern copepods usually dominate the summer zooplankton community along the Newport Line, while southern species dominate winter. Positive northern copepod anomalies generally correlate with stronger returns of Chinook salmon to Bonneville Dam and coho salmon to coastal Oregon (Peterson et al. (2014)). Historically, northern copepods typically have been favored by La Niña and negative PDO conditions (Keister et al. (2011); Fisher, Peterson, and Rykaczewski (2015)).\n\n\n\n\nFisher, Jennifer L, William T Peterson, and Ryan R Rykaczewski. 2015. “The Impact of El Niño Events on the Pelagic Food Chain in the Northern California Current.” Global Change Biology 21 (12): 4401–14.\n\n\nKeister, Julie E, E Di Lorenzo, CA Morgan, Vincent Combes, and WT Peterson. 2011. “Zooplankton Species Composition Is Linked to Ocean Transport in the Northern California Current.” Global Change Biology 17 (7): 2498–2511.\n\n\nPeterson, William T, Jennifer L Fisher, Jay O Peterson, Cheryl A Morgan, Brian J Burke, and Kurt L Fresh. 2014. “Applied Fisheries Oceanography: Ecosystem Indicators of Ocean Conditions Inform Fisheries Management in the California Current.” Oceanography 27 (4): 80–89.",
+    "text": "Copepod biomass anomalies represent variation in northern copepods (cold-water crustacean zooplankton species rich in wax esters and fatty acids) and southern copepods (smaller species with lower fat content and nutritional quality). Northern copepods usually dominate the summer zooplankton community along the Newport Line, while southern species dominate winter. Positive northern copepod anomalies generally correlate with stronger returns of Chinook salmon to Bonneville Dam and coho salmon to coastal Oregon (Peterson et al. (2014)). Historically, northern copepods typically have been favored by La Niña and negative PDO conditions (Keister et al. (2011); Fisher, Peterson, and Rykaczewski (2015)).\nCopepod biomass anomaly data are provided by J. Fisher, NMFS/NWFSC.\n\n\n\n\nFisher, Jennifer L, William T Peterson, and Ryan R Rykaczewski. 2015. “The Impact of El Niño Events on the Pelagic Food Chain in the Northern California Current.” Global Change Biology 21 (12): 4401–14.\n\n\nKeister, Julie E, E Di Lorenzo, CA Morgan, Vincent Combes, and WT Peterson. 2011. “Zooplankton Species Composition Is Linked to Ocean Transport in the Northern California Current.” Global Change Biology 17 (7): 2498–2511.\n\n\nPeterson, William T, Jennifer L Fisher, Jay O Peterson, Cheryl A Morgan, Brian J Burke, and Kurt L Fresh. 2014. “Applied Fisheries Oceanography: Ecosystem Indicators of Ocean Conditions Inform Fisheries Management in the California Current.” Oceanography 27 (4): 80–89.",
     "crumbs": [
       "Focal Components of Ecological Integrity",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Copepods</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Copepods</span>"
     ]
   },
   {
     "objectID": "Krill.html",
     "href": "Krill.html",
-    "title": "13  Krill",
+    "title": "14  Krill",
     "section": "",
-    "text": "Krill are among the most important prey in the CCE. The krill Euphausia pacifica is sampled year-round along the Trinidad Head Line off northern California (Fig. 1.1). Mean adult length and total biomass of E. pacifica sampled off the Trinidad Head Line indicate productivity at the base of the food web, krill condition, and energy content for predators (Robertson and Bjorkstedt (2020)).\nKrill are also detected acoustically during the Joint U.S.-Canada Pacific Hake Ecosystem and Acoustic Trawl (PHEAT) Survey, conducted between June-September from Point Conception, California to Dixon Entrance, British Columbia. The coastwide nautical-area-backscattering coefficient (NASC) represents relative krill abundance observed between 50-300 m water depth (see Phillips et al. 2022 for methodology).\n\n\n\n\nRobertson, Roxanne R, and Eric P Bjorkstedt. 2020. “Climate-Driven Variability in Euphausia Pacifica Size Distributions Off Northern California.” Progress in Oceanography 188: 102412.",
+    "text": "Krill are among the most important prey in the CCE. The krill Euphausia pacifica is sampled year-round along the Trinidad Head Line off northern California (Fig. 1.1). Mean adult length and total biomass of E. pacifica sampled off the Trinidad Head Line indicate productivity at the base of the food web, krill condition, and energy content for predators (Robertson and Bjorkstedt (2020)).\nTrinidad Head krill data are provided by E. Bjorkstedt, NMFS/SWFSC SWFSC, Cal Poly, Humboldt and R. Robertson, Cooperative Institute for Marine Ecosystems and Climate (CIMEC) at Cal Poly, Humboldt.\nKrill are also detected acoustically during the Joint U.S.-Canada Pacific Hake Ecosystem and Acoustic Trawl (PHEAT) Survey, conducted between June-September from Point Conception, California to Dixon Entrance, British Columbia. The coastwide nautical-area-backscattering coefficient (NASC) represents relative krill abundance observed between 50-300 m water depth (see Phillips et al. 2022 for methodology).\nKrill biomass estimates derived from the Joint U.S.-Canada Pacific Hake Ecosystem and Acoustic Trawl (PHEAT) survey hydroacoustic data are provided by E. Phillips, NMFS/NWFSC.\n\n\n\n\nRobertson, Roxanne R, and Eric P Bjorkstedt. 2020. “Climate-Driven Variability in Euphausia Pacifica Size Distributions Off Northern California.” Progress in Oceanography 188: 102412.",
     "crumbs": [
       "Focal Components of Ecological Integrity",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Krill</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Krill</span>"
     ]
   },
   {
@@ -165,34 +165,56 @@
   {
     "objectID": "NCCForage.html",
     "href": "NCCForage.html",
-    "title": "15  Northern California Current Forage",
+    "title": "16  Northern California Current Forage",
     "section": "",
-    "text": "The Northern CCE survey (known as the Juvenile Salmon Ocean Ecology Survey, JSOES) occurs in June and targets juvenile salmon in surface waters off Oregon and Washington. It also collects adult and juvenile (age 1+) pelagic forage fishes, market squid, and gelatinous zooplankton with regularity. A Nordic 264 rope trawl is towed for 15-30 min at approximately 6.5 km/hr. The gear is fished during daylight hours in near-surface (upper 20 m) waters, which is appropriate for targeting juvenile salmon.\nSeveral other taxa collected by the June JSOES surface trawl are noted in terms of their relative prevalence (proportion of stations where they were caught), but are not considered to be sampled quantitatively due to their behavior and mesh size of sampling gear.\nPelagic forage data from the Northern CCE are provided by B. Burke, NMFS/NWFSC and C. Morgan, OSU/CIMRS. Data are derived from surface trawls taken during the NWFSC Juvenile Salmon & Ocean Ecosystem Survey (JSOES; https://www.fisheries.noaa.gov/west-coast/science-data/ocean-ecosystem-indicators-pacific-salmon-marine-survival-northern). Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.\n#add citations for JSOES here",
+    "text": "The Northern CCE survey (known as the Juvenile Salmon Ocean Ecology Survey, JSOES) occurs in June and targets juvenile salmon in surface waters off Oregon and Washington. It also collects adult and juvenile (age 1+) pelagic forage fishes, market squid, and gelatinous zooplankton with regularity. A Nordic 264 rope trawl is towed for 15-30 min at approximately 6.5 km/hr. The gear is fished during daylight hours in near-surface (upper 20 m) waters, which is appropriate for targeting juvenile salmon.\nSeveral other taxa collected by the June JSOES surface trawl are noted in terms of their relative prevalence (proportion of stations where they were caught), but are not considered to be sampled quantitatively due to their behavior and mesh size of sampling gear.\nPelagic forage data from the Northern CCE are provided by B. Burke, NMFS/NWFSC and C. Morgan, OSU/CIMRS. Data are derived from surface trawls taken during the NWFSC Juvenile Salmon & Ocean Ecosystem Survey (JSOES; https://www.fisheries.noaa.gov/west-coast/science-data/ocean-ecosystem-indicators-pacific-salmon-marine-survival-northern). Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.\nPelagic forage data from the Northern CCE from B. Burke, NMFS/NWFSC and C. Morgan, OSU/CIMRS. Data are derived from surface trawls taken during the NWFSC Juvenile Salmon & Ocean Ecosystem Survey (JSOES; https://www.fisheries.noaa.gov/west-coast/science-data/ocean-ecosystem-indicators-pacific-salmon-marine-survival-northern). Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.",
     "crumbs": [
       "Focal Components of Ecological Integrity",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Northern California Current Forage</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Northern California Current Forage</span>"
     ]
   },
   {
     "objectID": "CCCForage.html",
     "href": "CCCForage.html",
-    "title": "16  Central California Current Forage",
+    "title": "17  Central California Current Forage",
     "section": "",
     "text": "The Central CCE forage survey (known as the Rockfish Recruitment and Ecosystem Assessment Survey, RREAS) samples much of the West Coast each May to mid-June, using midwater trawls sampling between 30 and 45 m depths during nighttime hours. The survey targets young-of-the-year (YOY) rockfish species and a variety of other YOY and adult forage species, market squid, adult krill, and gelatinous zooplankton. Juvenile rockfish, anchovy, krill, and market squid are among the most important prey for CCE predators (Szoboszlai et al. (2015)). Time series presented here are from the “Core Area” of that survey, centered off Monterey Bay. Catch data were standardized by using a delta-GLM to estimate year effects while accounting for spatial and temporal covariates to yield relative abundance indices, shown with their approximate 95% confidence limits (Santora et al. (2021)). The 2023 survey effort in the “Core Area” was comparable to previous years, apart from 2020.\nPelagic forage data from the Central CCE were provided by J. Field, T. Rogers, K. Sakuma, and J. Santora, NMFS/SWFSC, from the SWFSC Rockfish Recruitment and Ecosystem Assessment Survey (https://go.usa.gov/xGMfR). Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.\n\n\n\n\nSantora, Jarrod A, Tanya L Rogers, Megan A Cimino, Keith M Sakuma, Keith D Hanson, EJ Dick, Jaime Jahncke, Pete Warzybok, and John C Field. 2021. “Diverse Integrated Ecosystem Approach Overcomes Pandemic-Related Fisheries Monitoring Challenges.” Nature Communications 12 (1): 1–10.\n\n\nSzoboszlai, Amber I, Julie A Thayer, Spencer A Wood, William J Sydeman, and Laura E Koehn. 2015. “Forage Species in Predator Diets: Synthesis of Data from the California Current.” Ecological Informatics 29: 45–56.",
     "crumbs": [
       "Focal Components of Ecological Integrity",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Central California Current Forage</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Central California Current Forage</span>"
     ]
   },
   {
     "objectID": "SCCForage.html",
     "href": "SCCForage.html",
-    "title": "17  Southern California Current Forage",
+    "title": "18  Southern California Current Forage",
     "section": "",
-    "text": "Abundance indicators for forage in the Southern CCE come from fish and squid larvae collected in the spring (May-June) across all core stations of the CalCOFI survey. Larval data are indicators of the relative regional abundances of adult forage fish, such as sardines and anchovy, and other species, including certain groundfish, market squid, and mesopelagic fishes. The survey samples a variety of fish and invertebrate larvae (&lt;5 d old) from several taxonomic and functional groups, collected via oblique vertical tows of fine mesh Bongo nets to 212 m depth. In 2020, the spring larval survey was canceled due to COVID-19, and thus no data are available for that year, but survey operations resumed in 2021.\nPelagic forage larvae data from the Southern CCE were provided by A. Thompson, NMFS/SWFSC, from spring CalCOFI surveys (https://calcofi.org/); data were not collected in 2020 due to survey cancellations associated with the COVID pandemic. Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.\n#add SCC larval fish references",
+    "text": "Abundance indicators for forage in the Southern CCE come from fish and squid larvae collected in the spring (May-June) across all core stations of the CalCOFI survey. Larval data are indicators of the relative regional abundances of adult forage fish, such as sardines and anchovy, and other species, including certain groundfish, market squid, and mesopelagic fishes. The survey samples a variety of fish and invertebrate larvae (&lt;5 d old) from several taxonomic and functional groups, collected via oblique vertical tows of fine mesh Bongo nets to 212 m depth. In 2020, the spring larval survey was canceled due to COVID-19, and thus no data are available for that year, but survey operations resumed in 2021.\nPelagic forage larvae data from the Southern CCE were provided by A. Thompson, NMFS/SWFSC, from spring CalCOFI surveys (https://calcofi.org/); data were not collected in 2020 due to survey cancellations associated with the COVID pandemic. Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.\nPelagic forage larvae data from the Southern CCE were provided by A. Thompson, NMFS/SWFSC, from spring CalCOFI surveys (https://calcofi.org/); data were not collected in 2020 due to survey cancellations associated with the COVID pandemic. Similarity analysis and cluster plot by A. Thompson, NMFS/SWFSC.",
     "crumbs": [
       "Focal Components of Ecological Integrity",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Southern California Current Forage</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Southern California Current Forage</span>"
+    ]
+  },
+  {
+    "objectID": "SST.html",
+    "href": "SST.html",
+    "title": "3  Sea Surface Temperature (SST)",
+    "section": "",
+    "text": "Satellite data, which has been collected in a similar fashion since 1982, allows for a basin-scale view of sea surface temperature (SST) at up to daily and sub-degree (spatial) resolution.\nGlider data has also become an increasingly useful tool for analyzing trends in subsurface water temperatures over time. Subsurface gliders, which generally sample in onshore-offshore transects on a weekly to monthly basis, have been in service long enough for the development of climatologies, which are then used to compute temperature anomalies.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sea Surface Temperature (SST)</span>"
+    ]
+  },
+  {
+    "objectID": "CPSSurvey.html",
+    "href": "CPSSurvey.html",
+    "title": "19  CPS Survey",
+    "section": "",
+    "text": "Acoustic-trawl method (ATM) surveys have been used by the NOAA Southwest Fisheries Science Center in most years since 2006 to map the distributions and estimate the abundances of coastal pelagic fish species (CPS) in the coastal region from Vancouver Island, Canada, to San Diego, California (e.g., Zwolinski et al. 2014). In 2021 and 2022, the surveys were expanded to include portions of Baja California, Mexico (Stierhoff et al. 2023a, Stierhoff et al. 2023b). The surveys cover waters to at least the 1,000-fathom (1829-m) isobath, or 65 km from shore. The five most abundant CPS in this domain are Northern Anchovy, Pacific Herring, Pacific Sardine, Jack Mackerel, and Pacific Mackerel. The biomass of Pacific Sardine is calculated separately for the northern and southern stocks based on oceanographic habitat, spatial separation, and demographic structure (Zwolinski and Demer 2023). The ATM combines data from echosounders, which record CPS echoes, and trawls, which produce information about the composition, sizes, and ages of the fishes. This survey also samples the densities of CPS eggs at 3-m depth using a continuous underway fish egg sampler (CUFES) mounted on the ship’s hull.\nCPS surveys typically span the area between Cape Flattery and San Diego, but in some years also include Vancouver Island, Canada (2015-2019) and portions of Baja CA (2021-2022). Data and figure provided by K. Stierhoff, NMFS/SWFSC and J. Zwolinski, UCSC and NMFS/SWFSC.",
+    "crumbs": [
+      "Focal Components of Ecological Integrity",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>CPS Survey</span>"
     ]
   }
 ]
