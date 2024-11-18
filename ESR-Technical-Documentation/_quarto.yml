@@ -39,6 +39,10 @@ book:
       - GroundfishPortAvailability.qmd
       - HMSDiets.qmd
       - SeaLionProductivity.qmd
+      - SeabirdProductivity.qmd
+      - SeabirdDensity.qmd
+      - SeabirdMortality.qmd
+      - HarmfulAlgalBlooms.qmd
       
     - part: Fishing and Non-Fishing Human Activities
       chapters:
