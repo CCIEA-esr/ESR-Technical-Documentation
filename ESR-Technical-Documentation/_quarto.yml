@@ -30,8 +30,11 @@ book:
       - CCCForage.qmd
       - SCCForage.qmd
       - CPSSurvey.qmd
-    
-    
+      - SalmonStoplightTables.qmd
+      - ChinookSalmonEscapementColumbia.qmd
+      - ChinookSalmonEcoystemCalifornia.qmd
+      - GroundfishStockAbundance.qmd
+      - JuvenileGroundfish.qmd
 
 format:
   html:

@@ -1,0 +1,10 @@
+# Juvenile Groundfish Abundance
+
+Yearly indices of the abundances of juvenile sablefish, Dover sole, shortspine thornyhead,a and longspine thornyhead along the West Coast were calculated using species distribution models. The analysis follows the general approach used by Tolimieri et al. (2020), which was reviewed by the SSC-ES in September 2021, but this update uses the sdmTMB modeling package (Anderson et al. 2022) instead of the VAST package (Thorson 2019). The sdmTMB approach is being used by many West Coast groundfish stock assessment biologists to assimilate survey data, and was reviewed favorably by the SSC-Groundfish Subcommittee in summer of 2022 (PFMC 2022c).
+
+Data for indicators come from the West Coast Groundfish Bottom Trawl Survey (WCGBTS) (Keller et al. 2017) for 2003-2021. There are no data for 2020 because the WCGBTS was canceled due to the COVID-19 pandemic. 
+The survey data includes estimates of age, length, and biomass for subsamples of each haul, and occasionally for the entire haul when catch is low. Length is measured (cm total length) for all individuals in the subsample, but many individual fishes lack weight or age data due to time constraints in the field and ageing lab. To expand the subsample, individuals with length data only were given estimated weights based on species-specific length-weight relationships. Individual fish were allocated to age classes following Tolimieri et al. (2020) by using length-age relationships from the WCGBTS data to determine age-class maximum lengths (Table K.1). The proportional biomass of juveniles in each subsample was calculated and then used to extrapolate total estimated juvenile fish biomass in the full trawl. See Tolimieri et al. (2020) for more detail.
+
+[insert: Table K.1: Length, age, and depth range information for juvenile size/age classes of groundfish in this analysis. The trawl data do not contain ages for the thornyheads.]
+
+For reference, raw estimates of juvenile CPUE and total CPUE for each species are shown in Figures K.1 and K.2. These raw estimates were simple means of all trawls within the depth range in a given year.

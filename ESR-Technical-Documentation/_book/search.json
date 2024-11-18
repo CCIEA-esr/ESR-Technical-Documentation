@@ -31,6 +31,17 @@
     ]
   },
   {
+    "objectID": "SST.html",
+    "href": "SST.html",
+    "title": "3  Sea Surface Temperature (SST)",
+    "section": "",
+    "text": "Satellite data, which has been collected in a similar fashion since 1982, allows for a basin-scale view of sea surface temperature (SST) at up to daily and sub-degree (spatial) resolution.\nGlider data has also become an increasingly useful tool for analyzing trends in subsurface water temperatures over time. Subsurface gliders, which generally sample in onshore-offshore transects on a weekly to monthly basis, have been in service long enough for the development of climatologies, which are then used to compute temperature anomalies.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sea Surface Temperature (SST)</span>"
+    ]
+  },
+  {
     "objectID": "MarineHeatwaves.html",
     "href": "MarineHeatwaves.html",
     "title": "4  Marine Heatwaves",
@@ -64,14 +75,47 @@
     ]
   },
   {
+    "objectID": "DissolvedOxygen.html",
+    "href": "DissolvedOxygen.html",
+    "title": "7  Dissolved Oxygen",
+    "section": "",
+    "text": "Nearshore dissolved oxygen (DO) depends on many processes, including currents, upwelling, air–sea exchange, and community-level production and respiration in the water column and benthos. DO is required for organismal respiration; low DO can compress habitat and cause stress or die-offs for sensitive species. Waters with DO levels &lt;1.4 mL/L (~ 2 mg/L, note unit change) are considered to be hypoxic; such conditions may occur on the shelf following the onset of spring upwelling, and continue into the summer and early fall months until the fall transition vertically mixes shelf waters. Upwelling-driven hypoxia occurs because upwelled water from deeper ocean sources tends to be low in DO, and microbial decomposition of organic matter in the summer and fall increases overall system respiration and oxygen consumption, particularly closer to the seafloor (Chan et al. (2008)).\n\n\n\n\nChan, Francis, JA Barth, J Lubchenco, A Kirincich, H Weeks, William T Peterson, and BA Menge. 2008. “Emergence of Anoxia in the California Current Large Marine Ecosystem.” Science 319 (5865): 920–20.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Dissolved Oxygen</span>"
+    ]
+  },
+  {
+    "objectID": "OceanAcidification.html",
+    "href": "OceanAcidification.html",
+    "title": "8  Ocean Acidification",
+    "section": "",
+    "text": "Ocean acidification (OA), which occurs when atmospheric CO2 dissolves into seawater, reduces seawater pH and carbonate ion levels. Upwelling transports hypoxic, acidified waters from deeper offshore onto the continental shelf, where increased community-level metabolic activity can further exacerbate OA (Feely et al. (2008)). A key indicator of OA is aragonite saturation state, a measure of the availability of aragonite (a form of calcium carbonate). Aragonite saturation &lt;1.0 indicates relatively acidified, corrosive conditions that are stressful for many CCE species, particularly shell-forming invertebrates. OA impacts on these species can propagate through marine food webs and potentially affect fisheries (Marshall et al. 2017). Aragonite saturation states tend to be lowest during spring and summer upwelling, and highest in winter.\n\n\n\n\nFeely, Richard A, Christopher L Sabine, J Martin Hernandez-Ayon, Debby Ianson, and Burke Hales. 2008. “Evidence for Upwelling of Corrosive\" Acidified\" Water onto the Continental Shelf.” Science 320 (5882): 1490–92.",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Ocean Acidification</span>"
+    ]
+  },
+  {
+    "objectID": "FreshwaterHabitat.html",
+    "href": "FreshwaterHabitat.html",
+    "title": "9  Freshwater Habitat Indicators",
+    "section": "",
+    "text": "Freshwater habitat indicators are reported based on a hierarchical spatial framework. The framework facilitates comparisons of data at the right spatial scale for particular users, whether this be the entire California Current, ecoregions within the CCE, or smaller spatial units. The framework we use divides the region encompassed by the CCE into ecoregions (Fig. 1.1), and ecoregions into smaller physiographic units. Freshwater ecoregions are based on the biogeographic delineations in Abell et al. (2008), see also www.feow.org, who define six ecoregions for watersheds entering the California Current, three of which comprise the two largest watersheds directly entering the California Current (the Columbia and the Sacramento-San Joaquin Rivers). Within ecoregions, we summarized data at scales of evolutionary significant units (ESUs) and 8-field hydrologic unit classifications (HUC-8). Status and trends for all freshwater indicators are estimated using space-time models that account for spatial and temporal autocorrelation (Lindgren and Rue 2015).\n#or maybe Link this under Snowpack and Hydrology?",
+    "crumbs": [
+      "Climate and Oceans",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Freshwater Habitat Indicators</span>"
+    ]
+  },
+  {
     "objectID": "SnowWaterEquivalent.html",
     "href": "SnowWaterEquivalent.html",
-    "title": "6  Snow-water equivalent",
+    "title": "10  Snow-water equivalent",
     "section": "",
     "text": "Snow-water equivalent (SWE) is measured using data from the California Department of Water Resources snow survey program (California Data Exchange Center, cdec.water.ca.gov) and The Natural Resources Conservation Service’s SNOTEL sites across Washington, Oregon, California and Idaho. Snow data are converted into SWEs based on the weight of samples collected at regular intervals using a standardized protocol. Measurements on April 1 are considered the best indicator of maximum extent of SWE; thereafter snow tends to melt rather than accumulate.",
     "crumbs": [
       "Climate and Oceans",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Snow-water equivalent</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Snow-water equivalent</span>"
     ]
   },
   {
@@ -94,39 +138,6 @@
     "crumbs": [
       "Climate and Oceans",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Streamflow</span>"
-    ]
-  },
-  {
-    "objectID": "DissolvedOxygen.html",
-    "href": "DissolvedOxygen.html",
-    "title": "9  Dissolved Oxygen",
-    "section": "",
-    "text": "Nearshore dissolved oxygen (DO) depends on many processes, including currents, upwelling, air–sea exchange, and community-level production and respiration in the water column and benthos. DO is required for organismal respiration; low DO can compress habitat and cause stress or die-offs for sensitive species. Waters with DO levels &lt;1.4 mL/L (~ 2 mg/L, note unit change) are considered to be hypoxic; such conditions may occur on the shelf following the onset of spring upwelling, and continue into the summer and early fall months until the fall transition vertically mixes shelf waters. Upwelling-driven hypoxia occurs because upwelled water from deeper ocean sources tends to be low in DO, and microbial decomposition of organic matter in the summer and fall increases overall system respiration and oxygen consumption, particularly closer to the seafloor (Chan et al. (2008)).\n\n\n\n\nChan, Francis, JA Barth, J Lubchenco, A Kirincich, H Weeks, William T Peterson, and BA Menge. 2008. “Emergence of Anoxia in the California Current Large Marine Ecosystem.” Science 319 (5865): 920–20.",
-    "crumbs": [
-      "Climate and Oceans",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Dissolved Oxygen</span>"
-    ]
-  },
-  {
-    "objectID": "OceanAcidification.html",
-    "href": "OceanAcidification.html",
-    "title": "10  Ocean Acidification",
-    "section": "",
-    "text": "Ocean acidification (OA), which occurs when atmospheric CO2 dissolves into seawater, reduces seawater pH and carbonate ion levels. Upwelling transports hypoxic, acidified waters from deeper offshore onto the continental shelf, where increased community-level metabolic activity can further exacerbate OA (Feely et al. (2008)). A key indicator of OA is aragonite saturation state, a measure of the availability of aragonite (a form of calcium carbonate). Aragonite saturation &lt;1.0 indicates relatively acidified, corrosive conditions that are stressful for many CCE species, particularly shell-forming invertebrates. OA impacts on these species can propagate through marine food webs and potentially affect fisheries (Marshall et al. 2017). Aragonite saturation states tend to be lowest during spring and summer upwelling, and highest in winter.\n\n\n\n\nFeely, Richard A, Christopher L Sabine, J Martin Hernandez-Ayon, Debby Ianson, and Burke Hales. 2008. “Evidence for Upwelling of Corrosive\" Acidified\" Water onto the Continental Shelf.” Science 320 (5882): 1490–92.",
-    "crumbs": [
-      "Climate and Oceans",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Ocean Acidification</span>"
-    ]
-  },
-  {
-    "objectID": "FreshwaterHabitat.html",
-    "href": "FreshwaterHabitat.html",
-    "title": "11  Freshwater Habitat Indicators",
-    "section": "",
-    "text": "Freshwater habitat indicators are reported based on a hierarchical spatial framework. The framework facilitates comparisons of data at the right spatial scale for particular users, whether this be the entire California Current, ecoregions within the CCE, or smaller spatial units. The framework we use divides the region encompassed by the CCE into ecoregions (Fig. 1.1), and ecoregions into smaller physiographic units. Freshwater ecoregions are based on the biogeographic delineations in Abell et al. (2008), see also www.feow.org, who define six ecoregions for watersheds entering the California Current, three of which comprise the two largest watersheds directly entering the California Current (the Columbia and the Sacramento-San Joaquin Rivers). Within ecoregions, we summarized data at scales of evolutionary significant units (ESUs) and 8-field hydrologic unit classifications (HUC-8). Status and trends for all freshwater indicators are estimated using space-time models that account for spatial and temporal autocorrelation (Lindgren and Rue 2015).\n#or maybe Link this under Snowpack and Hydrology?",
-    "crumbs": [
-      "Climate and Oceans",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Freshwater Habitat Indicators</span>"
     ]
   },
   {
@@ -154,12 +165,12 @@
   {
     "objectID": "DungenessCrabMegalopae.html",
     "href": "DungenessCrabMegalopae.html",
-    "title": "14  Dungeness crab megalopae",
+    "title": "15  Dungeness crab megalopae",
     "section": "",
     "text": "In addition to being a lipid-rich prey source, preliminary analyses suggest the megalopae index from Oregon light traps is strongly correlated with commercial landings of Dungeness crab four years later (Shanks et al., in prep). Note that commercial catches are limited to males that are roughly 4 years old, so landings can also be interpreted as the 4-year-old year class of the population. There was also a noted difference in the relationship between heatwave and non-heatwave years. Within this time series, there were three years (2015, 2016, and 2019) when marine heat waves occurred over the continental shelf off Oregon. These results suggest that the size of the Dungeness crab population is strongly influenced by the annual larval success, as indicated by the number of megalopae caught; and in years with marine heat waves, recruitment from megalopae to 4-year-old crabs is higher. While only Oregon data are shown, the light trap data is positively correlated with commercial catch in California, but is not correlated with catches in Washington. This index stems from a collaborative effort between the Oregon Institute of Marine Biology (OIMB, University of Oregon) and ODFW and warrants further attention in the future as an additional index of prey availability in this region.",
     "crumbs": [
       "Focal Components of Ecological Integrity",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Dungeness crab megalopae</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Dungeness crab megalopae</span>"
     ]
   },
   {
@@ -193,17 +204,6 @@
     "crumbs": [
       "Focal Components of Ecological Integrity",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>Southern California Current Forage</span>"
-    ]
-  },
-  {
-    "objectID": "SST.html",
-    "href": "SST.html",
-    "title": "3  Sea Surface Temperature (SST)",
-    "section": "",
-    "text": "Satellite data, which has been collected in a similar fashion since 1982, allows for a basin-scale view of sea surface temperature (SST) at up to daily and sub-degree (spatial) resolution.\nGlider data has also become an increasingly useful tool for analyzing trends in subsurface water temperatures over time. Subsurface gliders, which generally sample in onshore-offshore transects on a weekly to monthly basis, have been in service long enough for the development of climatologies, which are then used to compute temperature anomalies.",
-    "crumbs": [
-      "Climate and Oceans",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sea Surface Temperature (SST)</span>"
     ]
   },
   {
