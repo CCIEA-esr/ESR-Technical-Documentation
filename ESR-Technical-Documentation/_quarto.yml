@@ -35,6 +35,8 @@ book:
       - ChinookSalmonEcoystemCalifornia.qmd
       - GroundfishStockAbundance.qmd
       - JuvenileGroundfish.qmd
+      - GroundfishPortAvailability
+      
 
 format:
   html:
