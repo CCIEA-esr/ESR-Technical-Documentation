@@ -21,6 +21,7 @@ book:
       - SnowWaterEquivalent.qmd
       - MaximumStreamTemperature.qmd
       - Streamflow.qmd
+      
     - part: Focal Components of Ecological Integrity
       chapters:
       - Copepods.qmd
@@ -35,8 +36,22 @@ book:
       - ChinookSalmonEcoystemCalifornia.qmd
       - GroundfishStockAbundance.qmd
       - JuvenileGroundfish.qmd
-      - GroundfishPortAvailability
+      - GroundfishPortAvailability.qmd
+      - HMSDiets.qmd
+      - SeaLionProductivity.qmd
       
+    - part: Fishing and Non-Fishing Human Activities
+      chapters:
+      - FisheryLandings.qmd
+      - SpatialInteractionsOceanUse.qmd
+
+    - part: Human Wellbeing
+      chapters:
+      - SocialVulnerability.qmd
+      - FleetIncomeDiversification.qmd
+      - NonFisheryIncomeDiversification.qmd
+      - FisheryRevenueConcentration.qmd
+      - FisheriesParticipationNetworks.qmd
 
 format:
   html:

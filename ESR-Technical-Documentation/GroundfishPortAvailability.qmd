@@ -9,4 +9,3 @@ The present analysis differs from Selden et al. (2020) in three ways:
 2- We used the Location Biomass directly instead of scaling it by spawning stock biomass from the assessment. Thus, the Availability Index is a relative biomass index and not actual available biomass. Biomass was then scaled to 0-1 for presentation by dividing by the highest value in any year.
 
 3- We used only the WCGBTS, and did not combine the Triennial survey (1980-2004) with the WCGBTS. This approach shortens the analysis period but allows us to expand the depth range to 55-1250 m.
-
