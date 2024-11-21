@@ -8,6 +8,14 @@ book:
   chapters:
     - index.qmd
     - Introduction.qmd
+    - part: General Methods
+      chapters:
+      - DataCodeAccess.qmd
+      - TrendAnalysis.qmd
+      - SurveyData.qmd
+      - ConceptualModels.qmd
+      - Glossary.qmd
+      
     - part: Climate and Oceans
       chapters:
       - BasinScaleIndicators.qmd
@@ -56,7 +64,7 @@ book:
       - NonFisheryIncomeDiversification.qmd
       - FisheryRevenueConcentration.qmd
       - FisheriesParticipationNetworks.qmd
-
+      
 format:
   html:
     theme: cosmo
