@@ -1,0 +1,13 @@
+# ONI (Oceanic Niño Index)
+
+**Description**
+
+The Oceanic Niño Index (ONI) describes the equatorial El Niño Southern Oscillation (ENSO). An ONI above 0.5°C indicates El Niño conditions, which often lead to lower primary production, weaker upwelling, poleward transport of equatorial waters and species, and more southerly storm tracks in the CCE. An ONI below -0.5°C means La Niña conditions, which create atmospheric pressure conditions that lead to upwelling-favorable winds that drive productivity in the CCE.
+
+**Data sources**
+
+**Data extraction**
+
+**Data analysis**
+
+**catalog link**

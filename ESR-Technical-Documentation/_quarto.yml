@@ -19,6 +19,9 @@ book:
     - part: Climate and Oceans
       chapters:
       - BasinScaleIndicators.qmd
+      - ONI.qmd
+      - PDO.qmd
+      - NPGO.qmd
       - SST.qmd
       - MarineHeatwaves.qmd
       - Upwelling.qmd
