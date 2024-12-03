@@ -1,14 +1,6 @@
 # Copepods
 
-pull the following categories from ERDDAP metadata (others?)
-**Indicator Category** Component_Section Subcomponent?
-**Indicator ERDDAP ID**
-**Data Steward** Contact? PI?
-**Region**
-**ERDDAP_query_value**
-**ERDDAP_variable_name**
-**Source_Data**
-**Additional_Calculations**
+pull the following categories from ERDDAP metadata (others?) 'Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'PI', 'Contact', 'Institution', 'Source_Data', **Indicator Category** 'Component_Section', 'Subcomponent' **Indicator ERDDAP ID** 'ERDDAP_Dataset_ID' **Data Steward** 'PI', 'Contact' **Region** **ERDDAP_query_value** **ERDDAP_variable_name** **Source_Data** **Additional_Calculations**
 
 The following information should be pasted or directly written in each .qmd file
 
