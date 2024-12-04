@@ -23,7 +23,7 @@ df = read.csv('metadata.csv')
 
 
 
-df_trimmed<- df %>% select(c('Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'PI', 'Contact', 'Institution', 'Source_Data'))
+df_trimmed<- df %>% select(c('Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'PI', 'Contact', 'Institution', 'Source_Data', 'Additional_Calculations'))
 
 
 df_trimmed<- df_trimmed %>% filter(ERDDAP_Dataset_ID=='cciea_EI_COP')
