@@ -1,15 +1,19 @@
 # Copepods
 
 
-library('googledrive')
-library(tidyverse)
+
 
 
 ```{r get-file-from-google-drive}
+#| echo: false
+#| message: false
 # download/update the excel file with the spreadsheet ####
 # get link from google drive
 # 'https://docs.google.com/spreadsheets/d/1iSGBa5-mIxXJ5ddalxLI7FL7uDjrThMGH5ducXAvw2c/edit?gid=472890844#gid=472890844'
 # RUN THIS CHUNK BEFORE knitting TO DOWNLOAD THE MOST RECENT DATA
+
+library(googledrive)
+library(tidyverse)
 
 if(1==1){
 
@@ -29,7 +33,14 @@ df_trimmed<- df %>% select(c('Component_Section', 'Subcomponent', 'ERDDAP_Datase
 df_trimmed<- df_trimmed %>% filter(ERDDAP_Dataset_ID=='cciea_EI_COP')
 
 ```
-pull the following categories from ERDDAP metadata (others?) 'Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'PI', 'Contact', 'Institution', 'Source_Data', **Indicator Category** 'Component_Section', 'Subcomponent' **Indicator ERDDAP ID** 'ERDDAP_Dataset_ID' **Data Steward** 'PI', 'Contact' **Region** **ERDDAP_query_value** **ERDDAP_variable_name** **Source_Data** **Additional_Calculations**
+ **Indicator Category** `r df_trimmed$Component_Section[1]`, `r df_trimmed$Subcomponent[1]`
+ 
+ **Indicator ERDDAP ID** 'ERDDAP_Dataset_ID'
+ 
+ **Data Steward** 'PI', 'Contact' 
+ 
+ 
+ **Region** **ERDDAP_query_value** **ERDDAP_variable_name** **Source_Data** **Additional_Calculations**
 
 
 
