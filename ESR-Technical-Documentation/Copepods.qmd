@@ -1,6 +1,31 @@
 # Copepods
 
+
+library('googledrive')
+library(tidyverse)
+
+
+```{r get-file-from-google-drive}
+# download/update the excel file with the spreadsheet ####
+# get link from google drive
+# 'https://docs.google.com/spreadsheets/d/1iSGBa5-mIxXJ5ddalxLI7FL7uDjrThMGH5ducXAvw2c/edit?gid=472890844#gid=472890844'
+# RUN THIS CHUNK BEFORE knitting TO DOWNLOAD THE MOST RECENT DATA
+
+if(1==1){
+
+file_id = '1iSGBa5-mIxXJ5ddalxLI7FL7uDjrThMGH5ducXAvw2c'
+
+drive_download( as_id(file_id) , path = 'metadata.csv', overwrite = TRUE)
+}
+
+df = read.csv('metadata.csv')
+
+df_trimmed<- df %>% select(c('Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'PI', 'Contact', 'Institution', 'Source_Data'))
+
+```
 pull the following categories from ERDDAP metadata (others?) 'Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'PI', 'Contact', 'Institution', 'Source_Data', **Indicator Category** 'Component_Section', 'Subcomponent' **Indicator ERDDAP ID** 'ERDDAP_Dataset_ID' **Data Steward** 'PI', 'Contact' **Region** **ERDDAP_query_value** **ERDDAP_variable_name** **Source_Data** **Additional_Calculations**
+
+
 
 The following information should be pasted or directly written in each .qmd file
 
