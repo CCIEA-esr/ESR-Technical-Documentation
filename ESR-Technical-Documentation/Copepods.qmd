@@ -1,7 +1,7 @@
 # Copepods
 
 
-library('googledrive')
+2library('googledrive')
 library(tidyverse)
 
 
@@ -20,7 +20,13 @@ drive_download( as_id(file_id) , path = 'metadata.csv', overwrite = TRUE)
 
 df = read.csv('metadata.csv')
 
+
+
+
 df_trimmed<- df %>% select(c('Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'PI', 'Contact', 'Institution', 'Source_Data'))
+
+
+df_trimmed<- df_trimmed %>% filter(ERDDAP_Dataset_ID=='cciea_EI_COP')
 
 ```
 pull the following categories from ERDDAP metadata (others?) 'Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'PI', 'Contact', 'Institution', 'Source_Data', **Indicator Category** 'Component_Section', 'Subcomponent' **Indicator ERDDAP ID** 'ERDDAP_Dataset_ID' **Data Steward** 'PI', 'Contact' **Region** **ERDDAP_query_value** **ERDDAP_variable_name** **Source_Data** **Additional_Calculations**
