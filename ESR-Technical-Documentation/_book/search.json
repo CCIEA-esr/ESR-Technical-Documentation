@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "ESR-Technical-Documentation",
     "section": "",
-    "text": "Preface\nI wasn’t sure how we wanted to deal with “chapters” of the document so I haven’t created any yet. I am assuming we will approach it similarly to the structure of the ESR (i.e. one “chapter” of the technical documentation per section of the ESR)",
+    "text": "Preface\nChapters of this document are organized similarly to the structure of the Ecosystem Status Report (i.e. one “chapter” of the technical documentation per section of the ESR), but also include sections encompassing indicators that no longer are published in the most current version of the document.",
     "crumbs": [
       "Preface"
     ]
