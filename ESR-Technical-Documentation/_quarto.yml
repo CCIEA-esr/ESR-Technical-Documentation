@@ -11,6 +11,7 @@ book:
     - part: General Methods
       chapters:
       - DataCodeAccess.qmd
+      - TimeSeriesQuadplots.qmd
       - TrendAnalysis.qmd
       - SurveyData.qmd
       - ConceptualModels.qmd
