@@ -1,7 +1,15 @@
 # Time Series and Quadplots
 
+```{r}
+#| echo: false
+wd = getwd()
+fig_loc = paste0(wd,'/figures/')
+
+```
+
+
 **Methods** 
-The Ecosystem Status Report uses as standard time-series and quadplot format for many data streams ([Fig. @fig-standard-plots].
+The Ecosystem Status Report uses as standard time-series and quadplot format for many data streams ([Fig. @fig-standard-plots]).
 
 ```{r}
 #| label: fig-standard-plots

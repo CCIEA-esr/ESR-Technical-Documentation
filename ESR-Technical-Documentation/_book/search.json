@@ -513,5 +513,19 @@
       "Human Wellbeing",
       "<span class='chapter-number'>46</span>  <span class='chapter-title'>Fisheries Participation Networks</span>"
     ]
+  },
+  {
+    "objectID": "Introduction.html#sec-jm-sampling-locations",
+    "href": "Introduction.html#sec-jm-sampling-locations",
+    "title": "1  Introduction",
+    "section": "1.1 SAMPLING LOCATIONS",
+    "text": "1.1 SAMPLING LOCATIONS\nWe generally refer to areas north of Cape Mendocino as the “Northern CCE,” Cape Mendocino to Point Conception as the “Central CCE”, and south of Point Conception as the “Southern CCE.” Figure 1.1 shows sampling areas for most regional oceanographic data. Key oceanographic transects are the Newport Line off Oregon, the Trinidad Head Line off northern California, and CalCOFI lines further south, while shaded marine regions indicate sampling areas for most biological surveys. This sampling is complemented by basin-scale oceanographic observations and by outputs from various models. Figure 1.1 also shows sampling areas for most biological indicators. The shaded terrestrial areas in Figure 1.1 represent freshwater ecoregions in the CCE, and are the basis by which we summarize indicators for snowpack, flows, and stream temperatures.\n\n\n\n\n\nFigure 1.1: Map of most sampling efforts in the California Current Ecosystem (CCE) and U.S. west coast Exclusive Economic Zone (EEZ). Symbols indicate hydrographic line sampling stations for oceanographic data. Shaded ocean regions represent biological sampling areas for the Northern California Current (NCC), which includes the Juvenile Salmon and Ocean Ecology Survey (JSOES); the Rockfish Recruitment and Ecosystem Assessment Survey (RREAS), including its Core Area; and the CalCOFI sampling region. The NCC and RREAS shaded areas, combined, also approximate the survey footprints for NOAA’s coastwide CPS acoustic/trawl and groundfish bottom trawl surveys. Dashed line approximates foraging area for adult female California sea lions from the San Miguel colony. Shaded terrestrial areas represent the six freshwater ecoregions in the CCE.\n\n\n\n\nThe list below shows which versions of all related products correspond to a specific Ecosystem Status report cycle. The reports and supporting products including the technical documentation are developed annually. The DOI links will be included once they are available so may lag."
+  },
+  {
+    "objectID": "TimeSeriesQuadplots.html",
+    "href": "TimeSeriesQuadplots.html",
+    "title": "3  Time Series and Quadplots",
+    "section": "",
+    "text": "Methods The Ecosystem Status Report uses as standard time-series and quadplot format for many data streams (Fig. 3.1).\n\n\n\n\n\nFigure 3.1: a) Sample time-series plot, with indicator data relative to the long-term mean (black dashed horizontal line) and ±1.0 standard deviation (SD; solid blue lines) of the full time series. Dotted black line indicates missing data, and points (when included) indicate data. Arrow at the right indicates if the trend over the evaluation period (shaded blue) is positive (↗), negative (↘), or neutral (↔︎). Symbol at the lower right indicates if the recent mean was greater than (+), less than (-), or within 1.0 SD of the long-term mean. When possible, times series indicate observation error (gray envelope), defined for each plot (e.g., SD, standard error, or 95% confidence intervals). b) Sample time-series plot with the indicator plotted relative to a threshold value (blue line). Dashed lines indicate upper and lower observation error, again defined for each plot. Dotted black line indicates missing data. c) Sample quad plot where each point represents one normalized time series. The position of a point indicates if the recent trend was increasing or decreasing over the evaluation period and whether the recent mean over the evaluation period\n\n\n\n\nData Source(s) NA\nData Extraction NA\nData Analysis NA\ncatalog link"
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ESR-Technical-Documentation - 1&nbsp; Introduction</title>
+<title>ESR-Technical-Documentation - 3&nbsp; Time Series and Quadplots</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./DataCodeAccess.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./TrendAnalysis.html" rel="next">
+<link href="./DataCodeAccess.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Introduction.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./DataCodeAccess.html">General Methods</a></li><li class="breadcrumb-item"><a href="./TimeSeriesQuadplots.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Time Series and Quadplots</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -107,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Introduction.html" class="sidebar-item-text sidebar-link active">
+  <a href="./Introduction.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./TimeSeriesQuadplots.html" class="sidebar-item-text sidebar-link">
+  <a href="./TimeSeriesQuadplots.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Time Series and Quadplots</span></span></a>
   </div>
 </li>
@@ -448,20 +448,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#sec-jm-sampling-locations" id="toc-sec-jm-sampling-locations" class="nav-link active" data-scroll-target="#sec-jm-sampling-locations"><span class="header-section-number">1.1</span> SAMPLING LOCATIONS</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Time Series and Quadplots</span></h1>
 </div>
 
 
@@ -476,25 +470,23 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The purpose of this document is to collate the methods used to access, collect, process, and analyze derived data (“indicators”) used to describe the status and trend of social, economic, ecological, and biological conditions in the California Current Large Marine Ecosystem (see figure, below). These indicators are further synthesized in Ecosystem Status Reports produced annually by the Northwest and Southwest Fisheries Science Centers for the Pacific Fisheries Management Council. The metadata for each indicator (in accordance with the Public Access to Research Results (PARR) directive) and the methods used to construct each indicator are described in the subsequent chapters, with each chapter title corresponding to an indicator or analysis present in Ecoystem Status Reports. The most recent and usable html version of this document can be found at the NOAA xxxx Github. The PDF version of this document is for archiving only. The PDF version from previous years is archived in NOAA’s Institutional Repository.</p>
-<p>Indicators included in this document were selected to clearly align with management objectives, which is required for integrated ecosystem assessment (Levin et al.&nbsp;2009), and has been advised many times in the literature (Degnbol and Jarre 2004; Jennings 2005; Rice and Rochet 2005; Jason S. Link 2005). A difficulty with practical implementation of this in ecosystem reporting can be the lack of clearly specified ecosystem-level management objectives (although some have been suggested (Murawski 2000)). In our case, considerable effort had already been applied to derive both general goals and operational objectives from both US legislation such as the Magnuson-Stevens Fisheries Conservation and Management Act (MSA) and regional sources (DePiper et al.&nbsp;2017). These objectives are somewhat general and would need refinement together with managers and stakeholders, however, they serve as a useful starting point to structure ecosystem reporting.</p>
-<section id="sec-jm-sampling-locations" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="sec-jm-sampling-locations"><span class="header-section-number">1.1</span> SAMPLING LOCATIONS</h2>
-<p>We generally refer to areas north of Cape Mendocino as the “Northern CCE,” Cape Mendocino to Point Conception as the “Central CCE”, and south of Point Conception as the “Southern CCE.” <a href="#fig-sampling-areas">Figure&nbsp;<span>1.1</span></a> shows sampling areas for most regional oceanographic data. Key oceanographic transects are the Newport Line off Oregon, the Trinidad Head Line off northern California, and CalCOFI lines further south, while shaded marine regions indicate sampling areas for most biological surveys. This sampling is complemented by basin-scale oceanographic observations and by outputs from various models. <a href="#fig-sampling-areas">Figure&nbsp;<span>1.1</span></a> also shows sampling areas for most biological indicators. The shaded terrestrial areas in <a href="#fig-sampling-areas">Figure&nbsp;<span>1.1</span></a> represent freshwater ecoregions in the CCE, and are the basis by which we summarize indicators for snowpack, flows, and stream temperatures.</p>
-<div class="cell" width="75%">
+<p><strong>Methods</strong> The Ecosystem Status Report uses as standard time-series and quadplot format for many data streams (<a href="#fig-standard-plots">Fig.&nbsp;<span>3.1</span></a>).</p>
+<div class="cell">
 <div class="cell-output-display">
-<div id="fig-sampling-areas" class="quarto-figure quarto-figure-center anchored">
+<div id="fig-standard-plots" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="figures/New_sampling_area_map.png" class="img-fluid figure-img" width="350"></p>
-<figcaption class="figure-caption">Figure&nbsp;1.1: Map of most sampling efforts in the California Current Ecosystem (CCE) and U.S. west coast Exclusive Economic Zone (EEZ). Symbols indicate hydrographic line sampling stations for oceanographic data. Shaded ocean regions represent biological sampling areas for the Northern California Current (NCC), which includes the Juvenile Salmon and Ocean Ecology Survey (JSOES); the Rockfish Recruitment and Ecosystem Assessment Survey (RREAS), including its Core Area; and the CalCOFI sampling region. The NCC and RREAS shaded areas, combined, also approximate the survey footprints for NOAA’s coastwide CPS acoustic/trawl and groundfish bottom trawl surveys. Dashed line approximates foraging area for adult female California sea lions from the San Miguel colony. Shaded terrestrial areas represent the six freshwater ecoregions in the CCE.</figcaption>
+<p><img src="figures/example-fig.jpg" class="img-fluid figure-img" width="900"></p>
+<figcaption class="figure-caption">Figure&nbsp;3.1: a) Sample time-series plot, with indicator data relative to the long-term mean (black dashed horizontal line) and ±1.0 standard deviation (SD; solid blue lines) of the full time series. Dotted black line indicates missing data, and points (when included) indicate data. Arrow at the right indicates if the trend over the evaluation period (shaded blue) is positive (↗), negative (↘), or neutral (↔︎). Symbol at the lower right indicates if the recent mean was greater than (+), less than (-), or within 1.0 SD of the long-term mean. When possible, times series indicate observation error (gray envelope), defined for each plot (e.g., SD, standard error, or 95% confidence intervals). b) Sample time-series plot with the indicator plotted relative to a threshold value (blue line). Dashed lines indicate upper and lower observation error, again defined for each plot. Dotted black line indicates missing data. c) Sample quad plot where each point represents one normalized time series. The position of a point indicates if the recent trend was increasing or decreasing over the evaluation period and whether the recent mean over the evaluation period</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>The list below shows which versions of all related products correspond to a specific Ecosystem Status report cycle. The reports and supporting products including the technical documentation are developed annually. The DOI links will be included once they are available so may lag.</p>
+<p><strong>Data Source(s)</strong> NA</p>
+<p><strong>Data Extraction</strong> NA</p>
+<p><strong>Data Analysis</strong> NA</p>
+<p><strong>catalog link</strong></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -732,13 +724,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      <a href="./DataCodeAccess.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Data and Code Access</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./DataCodeAccess.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Data and Code Access</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./TrendAnalysis.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Trend Analysis</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
