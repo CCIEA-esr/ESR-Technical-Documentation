@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.6.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ESR-Technical-Documentation - 14&nbsp; Habitat Compression Index</title>
+<title>14&nbsp; Habitat Compression Index – ESR-Technical-Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 /* CSS for citations */
 div.csl-bib-body { }
@@ -57,10 +91,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-38923efdb31501a5af32b90a72157317.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -98,13 +132,13 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./BasinScaleIndicators.html">Climate and Oceans</a></li><li class="breadcrumb-item"><a href="./HabitatCompressionIndex.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Habitat Compression Index</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -140,9 +174,9 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">General Methods</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -181,9 +215,9 @@ div.csl-indent {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Climate and Oceans</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -276,9 +310,9 @@ div.csl-indent {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
  <span class="menu-text">Focal Components of Ecological Integrity</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -401,9 +435,9 @@ div.csl-indent {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
  <span class="menu-text">Fishing and Non-Fishing Human Activities</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -424,9 +458,9 @@ div.csl-indent {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
  <span class="menu-text">Human Wellbeing</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -468,7 +502,7 @@ div.csl-indent {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
@@ -493,20 +527,37 @@ div.csl-indent {
 </header>
 
 
-<p><strong>Description</strong> Spatial variability in patterns of upwelling, including the distribution of upwelled water and associated development of hydrographic fronts, is important for ecosystem monitoring and assessment of marine heatwaves and ecosystem shifts that can impact coastal fishing communities. Coastal upwelling creates a band of relatively cool coastal water, which is suitable habitat for a diverse and productive portion of the CCE food web. Monitoring the area and variability of upwelling habitat provides regional measures of habitat compression—an indicator to monitor the incursion of offshore warming (e.g., from heatwaves or reduced upwelling conditions) over shelf waters, which relates to shifts in the pelagic forage species community in space and time. <span class="citation" data-cites="santora2020habitat">Santora et al. (<a href="#ref-santora2020habitat" role="doc-biblioref">2020</a>)</span> applied principles of ecosystem oceanography and integration of fisheries surveys to develop the Habitat Compression Index (HCI) to quantify how offshore warming during the 2013–2016 marine heatwave and previous warming events restricted the cool upwelling habitat to a narrower-than-normal band along the coast. This compression of habitat consequently altered prey community composition and distribution, spatial aggregation patterns of top predators, and contributed to increased rates of whale entanglements in fixed fishing gear.</p>
-<p>HCI is derived from the CCE configuration of the Regional Ocean Modeling System (ROMS) model with data assimilation (<span class="citation" data-cites="neveu2016historical">Neveu et al. (<a href="#ref-neveu2016historical" role="doc-biblioref">2016</a>)</span>), and is estimated in four biogeographic provinces within the CCE: 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. HCI is defined as the area of monthly averaged ROMS model temperatures at a depth of 2 m that fall below a temperature threshold. Each region/month has a unique temperature threshold, based on its distinct historic climatology.</p>
-<p>Note: perhaps we could replace highlighted text with “The Habitat Compression Index (HCI) is a model-derived measure of the area of cool habitat along the coast, which is suitable for a diverse and productive portion of the CCE food web. HCI is estimated in four biogeographic provinces within the CCE: : 30°-35.5°N, 35.5°-40°N, 40°-43.5°N, and 43.5°-48°N. Methodological details are available [here].”</p>
-<p><strong>Data sources</strong></p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>ds_id <span class="ot">&lt;-</span> <span class="st">'cciea_OC_HCI'</span>    </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>ts_id_list <span class="ot">=</span> <span class="fu">list</span>(<span class="st">'cciea_OC_HCI1'</span>, <span class="st">'cciea_OC_HCI2'</span>, <span class="st">'cciea_OC_HCI3'</span>, <span class="st">'cciea_OC_HCI4'</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Source some local code</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">"script_region.R"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p><strong>Description</strong> The Habitat Compression Index (HCI) is the area of cool habitat along the coast, which is suitable for a diverse and productive portion of the CCE food web. HCI is estimated in four biogeographic provinces along the shelf within the CCE.</p>
+<p><strong>Metafile name</strong> /home/isaac/Work/IEA/2024/tech_document/CCIEA_metadata_2024-09-26.xlsx</p>
+<p><strong>Indicator Category</strong> Climate and Ocean Drivers</p>
+<p><strong>Data Steward</strong> Schroeder</p>
+<p><strong>Erddap Dataset ID</strong> cciea_OC_HCI</p>
+<p><strong>CCIEA timeseries ID</strong> cciea_OC_HCI1, cciea_OC_HCI2, cciea_OC_HCI3, cciea_OC_HCI4</p>
+<p><strong>Region</strong> NCC (43.5-48.0N), CCC (40.0-43.5N), CCC (35.5-40.0N), SCC (30.0-35.5N)</p>
+<p><strong>References</strong> <span class="citation" data-cites="Santora2020">Santora et al. (<a href="#ref-Santora2020" role="doc-biblioref">2020</a>)</span>, <span class="citation" data-cites="Schroeder2022">Schroeder et al. (<a href="#ref-Schroeder2022" role="doc-biblioref">2022</a>)</span></p>
+<p><strong>Public availability statement</strong> Source data are publicly available.</p>
+<p><strong>Data sources</strong> Surface temperature data are the 2 m temperature levels of the University of California Santa Cruz 31-year historical reanalysis (<a href="https://oceanmodeling.ucsc.edu/reanalccs31/" class="uri">https://oceanmodeling.ucsc.edu/reanalccs31/</a>) and near-real-time (NRT; <a href="https://oceanmodeling.ucsc.edu/ccsnrt/" class="uri">https://oceanmodeling.ucsc.edu/ccsnrt/</a>) data-assimilative models.</p>
 <p><strong>Data extraction</strong></p>
 <p><strong>Data analysis</strong></p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-neveu2016historical" class="csl-entry" role="listitem">
-Neveu, Emilie, Andrew M Moore, Christopher A Edwards, Jérôme Fiechter, Patrick Drake, William J Crawford, Michael G Jacox, and Emma Nuss. 2016. <span>“An Historical Analysis of the California Current Circulation Using ROMS 4D-Var: System Configuration and Diagnostics.”</span> <em>Ocean Modelling</em> 99: 133–51.
+<div id="ref-Santora2020" class="csl-entry" role="listitem">
+Santora, Jarrod A., Nathan J. Mantua, Isaac D. Schroeder, John C. Field, Elliott L. Hazen, Steven J. Bograd, William J. Sydeman, et al. 2020. <span>“Habitat Compression and Ecosystem Shifts as Potential Links Between Marine Heatwave and Record Whale Entanglements.”</span> <em>Nature Communications</em> 11 (1). <a href="https://doi.org/10.1038/s41467-019-14215-w">https://doi.org/10.1038/s41467-019-14215-w</a>.
 </div>
-<div id="ref-santora2020habitat" class="csl-entry" role="listitem">
-Santora, Jarrod A, Nathan J Mantua, Isaac D Schroeder, John C Field, Elliott L Hazen, Steven J Bograd, William J Sydeman, et al. 2020. <span>“Habitat Compression and Ecosystem Shifts as Potential Links Between Marine Heatwave and Record Whale Entanglements.”</span> <em>Nature Communications</em> 11 (1): 1–12.
+<div id="ref-Schroeder2022" class="csl-entry" role="listitem">
+Schroeder, Isaac D., Jarrod A. Santora, Nate Mantua, John C. Field, Brian K. Wells, Elliott L. Hazen, Michael Jacox, and Steven J. Bograd. 2022. <span>“Habitat Compression Indices for Monitoring Ocean Conditions and Ecosystem Impacts Within Coastal Upwelling Systems.”</span> <em>Ecological Indicators</em> 144 (November): 109520. <a href="https://doi.org/10.1016/j.ecolind.2022.109520">https://doi.org/10.1016/j.ecolind.2022.109520</a>.
 </div>
 </div>
 
@@ -546,18 +597,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -589,7 +629,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -597,7 +657,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -694,7 +754,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
