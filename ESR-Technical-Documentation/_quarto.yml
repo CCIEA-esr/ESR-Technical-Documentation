@@ -23,6 +23,7 @@ book:
       - ONI.qmd
       - PDO.qmd
       - NPGO.qmd
+      - NPH.qmd
       - SST.qmd
       - MarineHeatwaves.qmd
       - Upwelling.qmd
