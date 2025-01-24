@@ -1,40 +1,3 @@
----
-lightbox: true
-bibliography: /home/isaac/Work/IEA/tech_document/ESR-Technical-Documentation/ESR-Technical-Documentation/esr-bibliography.bib
-format:
-  html: 
-    code-fold: true
----
-
-```{r}
-cciea_yr <- 2024
-
-ds_id <- 'cciea_OC_MHW'	   
-ts_id_list = list('cciea_OC_MHW_HC')
-source("script_region.R")
-ds_id_hc <- ds_id
-vec2_hc <- vec2
-ds_id_lbl_hc <- ds_id_lbl
-rgn_lbl_hc <- rgn_lbl
-
-ds_id <- 'cciea_OC_MHW'	   
-ts_id_list = list('cciea_OC_MHW_MA')
-source("script_region.R")
-ds_id_ma <- ds_id
-vec2_ma <- vec2
-ds_id_lbl_ma <- ds_id_lbl
-rgn_lbl_ma <- rgn_lbl
-
-ds_id <- 'cciea_OC_MHW'	   
-ts_id_list = list('cciea_OC_MHW_MI')
-source("script_region.R")
-ds_id_mi <- ds_id
-vec2_mi <- vec2
-ds_id_lbl_mi <- ds_id_lbl
-rgn_lbl_mi <- rgn_lbl
-
-
-```
 
 # Marine Heatwaves
 
@@ -58,26 +21,5 @@ The underlying climatology used for SST anomaly analysis has changed from 1982-2
 
 **Figures**
 
-::: {#fig-mhw_M}
-![](plots/oc_mhw_heatwave_cover_sum_area_intensity_Monthly.png){width="70%"}
-:::
-
-<br> <br> <br>
-
-::: {#fig-mhw_S layout-ncol="3," layout="[50,-1,50,-1,50]"}
-![Heatwave Cover](plots/oc_mhw_heatwave_cover_Season.png){#fig-mhw_hc_S}
-
-![Sum Area](plots/oc_mhw_sum_area_Season.png){#fig-mhw_ma_S}
-
-![Intensity](plots/oc_mhw_intensity_Season.png){#fig-mhw_mi_S}
-
-Seasonal averages of the monthly MHW time series.
-:::
-
-**`{r} cciea_yr` Conditions**
-
--   Monthly MHW sum area @fig-mhw_M was above the long-term mean during summer and fall 2024.
--   Winter, Spring and Summer MHW sum area @fig-mhw_ma_S had 2024 values lower than 2023.
--   Heat wave cover during the winter 2024 @fig-mhw_hc_S was above 1 sd, this probably can be attributed to El Niño elevating coastal temperatures @fig-sst_spatial_winter.
 
 **References**

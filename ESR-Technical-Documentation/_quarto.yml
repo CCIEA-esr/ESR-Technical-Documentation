@@ -3,8 +3,8 @@ project:
 
 book:
   title: "ESR-Technical-Documentation"
-  author: "Greg Williams, Chris Dailey, etc"
-  date: "01/07/2025"
+  author: "Greg Williams, Isaac Schroeder, Chris Dailey, etc"
+  date: "01/23/2025"
   chapters:
     - index.qmd
     - Introduction.qmd
