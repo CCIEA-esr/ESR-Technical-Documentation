@@ -12,8 +12,7 @@ The present analysis differs from Selden et al. (2020) in three ways:
 
 **2025-01 Update**
 
-Previous sdmTMB models used a delta-poisson-link-gamma model structure/distribution and included depth a linear factor. In 2025 (for the CY2025 ESR), models were updated to use a delta-lognormal model structure, and normalized depth was included as a smoothed variable (with three knots).  The delta-lognormal models produced better residuals (as evaluate with QQ-plots) than the delta-poisson-link-gamma models. The smoothed depth term allowed non-linear relationships with depth, such as higher mid-depth abundance versus shallow and deeper zones. 
-
+Previous sdmTMB models used a delta-poisson-link-gamma model structure/distribution and included depth a linear factor. In 2025 (for the CY2025 ESR), models were updated to use a delta-lognormal model structure, and normalized depth was included as a smoothed variable (with three knots). The delta-lognormal models produced better residuals (as evaluate with QQ-plots) than the delta-poisson-link-gamma models. The smoothed depth term allowed non-linear relationships with depth, such as higher mid-depth abundance versus shallow and deeper zones.
 
 **Data sources**
 
