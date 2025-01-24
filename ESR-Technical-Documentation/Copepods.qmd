@@ -3,6 +3,7 @@
 ```{r get-file-from-google-drive}
 #| echo: false
 #| message: false
+#| eval: false
 # download/update the excel file with the spreadsheet ####
 # get link from google drive
 # 'https://docs.google.com/spreadsheets/d/1QlA_c8Km6SmkOke19nVpsE7gpw8RcY7zY69fnCeSIYo/edit?gid=727721099#gid=727721099'
@@ -22,7 +23,11 @@ df = read.csv('metadata.csv')
 
 df_trimmed<- df %>% select(c('Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'Contact', 'Title', 'Institution', 'Source_Data', 'Additional_Calculations'))
 
-df_trimmed<- df_trimmed %>% filter(ERDDAP_Dataset_ID=='cciea_EI_COP')
+```
+
+```{r}
+#| echo: false
+df_trimmed<- df_trimmed1 %>% filter(ERDDAP_Dataset_ID=='cciea_EI_COP')
 
 ```
 
