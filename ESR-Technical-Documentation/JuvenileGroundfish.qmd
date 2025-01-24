@@ -37,14 +37,15 @@ fig_dir =( paste0(home_dir,"/figures/"))
 library(flextable)
 library(tidyverse)
 
-df = data.frame(read.csv( paste0(fig_dir, "GF-RecruitInfoTable.csv"), header = TRUE))
+df = data.frame(read.csv( paste0(fig_dir, 
+     "GF-RecruitInfoTable.csv"), header = TRUE))
 
 df %>% flextable %>% autofit() %>%
    set_header_labels(.,
   values = list(
    cname = "Common name",
     Max_Length= "Max length (cm)",
-    Spceies = "Species",
+    Species = "Species",
     Age_Classes = "Age class",
     Depth_range = "Depth range (m)")) %>%
    align(j = 3:5, align = "center", part = "all") %>%
