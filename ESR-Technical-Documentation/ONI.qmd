@@ -1,5 +1,41 @@
 # ONI (Oceanic Niño Index)
 
+```{r get-file-from-google-drive}
+#| echo: false
+#| message: false
+# download/update the excel file with the spreadsheet ####
+# get link from google drive
+# 'https://docs.google.com/spreadsheets/d/1QlA_c8Km6SmkOke19nVpsE7gpw8RcY7zY69fnCeSIYo/edit?gid=727721099#gid=727721099'
+# RUN THIS CHUNK BEFORE knitting TO DOWNLOAD THE MOST RECENT DATA
+
+library(googledrive)
+library(tidyverse)
+
+if(1==1){
+
+file_id = '1QlA_c8Km6SmkOke19nVpsE7gpw8RcY7zY69fnCeSIYo'
+
+drive_download( as_id(file_id) , path = 'metadata.csv', overwrite = TRUE)
+}
+
+df = read.csv('metadata.csv')
+
+df_trimmed<- df %>% select(c('Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'Contact', 'Title', 'Institution', 'Source_Data', 'Additional_Calculations'))
+
+df_trimmed<- df_trimmed %>% filter(ERDDAP_Dataset_ID=='cciea_OC_ONI')
+
+```
+
+**Indicator Names** `r df_trimmed$Title[1]`
+
+**Indicator Component Category** `r df_trimmed$Component_Section[1]`
+
+**Data Steward** `r df_trimmed$Contact[1]`, `r df_trimmed$Source_Data[1]`
+
+**Institution** `r df_trimmed$Institution[1]`
+
+**Additional_Calculations** `r df_trimmed$Additional_Calculations[1]`
+
 **Description**
 
 The Oceanic Niño Index (ONI) describes the equatorial El Niño Southern Oscillation (ENSO). An ONI above 0.5°C indicates El Niño conditions, which often lead to lower primary production, weaker upwelling, poleward transport of equatorial waters and species, and more southerly storm tracks in the CCE. An ONI below -0.5°C means La Niña conditions, which create atmospheric pressure conditions that lead to upwelling-favorable winds that drive productivity in the CCE.
