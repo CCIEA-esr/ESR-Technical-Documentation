@@ -1,5 +1,5 @@
 # Input variables, change these
-fn_meta <- '/home/isaac/Work/IEA/tech_document/ESR-Technical-Documentation/ESR-Technical-Documentation/metadata.csv'
+fn_meta <- 'metadata.csv'
 
 	   
 cell2_wnt = c('Component_Section', 'Subcomponent', 'ERDDAP_Dataset_ID', 'PI', 'Contact')

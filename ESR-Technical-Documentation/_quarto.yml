@@ -1,6 +1,6 @@
 project:
   type: book
-
+  output-dir: docs
 book:
   title: "ESR-Technical-Documentation"
   author: "Greg Williams, Isaac Schroeder, Chris Dailey, etc"

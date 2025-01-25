@@ -16,12 +16,12 @@ fig_loc = paste0(wd,'/figures/')
 library(googledrive)
 library(tidyverse)
 
-if(1==1){
+#if(1==1){
 
-file_id = '1QlA_c8Km6SmkOke19nVpsE7gpw8RcY7zY69fnCeSIYo'
+#file_id = '1QlA_c8Km6SmkOke19nVpsE7gpw8RcY7zY69fnCeSIYo'
 
-drive_download( as_id(file_id) , path = 'metadata.csv', overwrite = TRUE)
-}
+#drive_download( as_id(file_id) , path = 'metadata.csv', overwrite = TRUE)
+#}
 
 df = read.csv('metadata.csv')
 

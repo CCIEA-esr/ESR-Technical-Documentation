@@ -68,7 +68,7 @@ Previously models for all species included a delta-poisson-link-gamma model/erro
 ```{r tbl-juv-model-info}
 #| tbl-cap: "Model informaiton for juvenile abundance models used in the FY2025 report."
 #| echo: false
-
+FYtag = "FY2025"
 jtab = data.frame(read.csv( 
   paste0(fig_dir,"GF-juvenile-model-info_",FYtag,'.csv')))
 # clean up for presentation

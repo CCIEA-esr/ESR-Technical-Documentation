@@ -1,3 +1,38 @@
+<<<<<<< Updated upstream
+=======
+---
+lightbox: true
+bibliography: esr-bibliography.bib
+format:
+ html:
+  code-fold: true
+---
+
+
+```{r}
+cciea_yr <- 2024
+
+ds_id <- 'cciea_OC_NPH'	   
+ts_id_list = list('cciea_OC_NPH')
+source("script_IDS.R")
+ds_id_nph <- ds_id
+vec2_nph <- vec2
+ds_id_lbl_nph <- ds_id_lbl
+rgn_lbl_nph <- rgn_lbl
+
+ds_id <- 'cciea_OC_NPH_Jan_Feb'	   
+ts_id_list = list('cciea_OC_NPH_JF')
+source("script_IDS.R")
+ds_id_jf <- ds_id
+vec2_jf <- vec2
+ds_id_lbl_jf <- ds_id_lbl
+rgn_lbl_jf <- rgn_lbl
+
+
+
+```
+
+>>>>>>> Stashed changes
 
 # North Pacific High Indicators
 

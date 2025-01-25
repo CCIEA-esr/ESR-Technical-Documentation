@@ -1,5 +1,5 @@
 ---
-bibliography: /home/isaac/Work/IEA/2024/tech_document/tech_document.bib
+# bibliography: /home/isaac/Work/IEA/2024/tech_document/tech_document.bib
 format:
   html: 
     code-fold: true
@@ -7,6 +7,7 @@ format:
 
 # Habitat Compression Index
 
+<<<<<<< Updated upstream
 ```{r}
 ds_id <- 'cciea_OC_HCI'	   
 ts_id_list = list('cciea_OC_HCI1', 'cciea_OC_HCI2', 'cciea_OC_HCI3', 'cciea_OC_HCI4')
@@ -30,6 +31,11 @@ source("script_region.R")
 **CCIEA timeseries ID** `{r} ds_id_lbl`
 
 **Region** `{r} rgn_lbl`
+=======
+
+**Description** The Habitat Compression Index (HCI) is the area of cool habitat along the coast, which is suitable for a diverse and productive portion of the CCE food web. HCI is estimated in four biogeographic provinces along the shelf within the CCE.
+
+>>>>>>> Stashed changes
 
 **References** @Santora2020, @Schroeder2022
 

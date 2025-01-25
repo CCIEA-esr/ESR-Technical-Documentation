@@ -2,3 +2,13 @@
 .Rhistory
 .RData
 .Ruserdata
+ESR-Technical-Documentation.Rproj
+ESR-Technical-Documentation.Rproj
+*.Rproj
+ESR-Technical-Documentation/_book/Introduction.html
+ESR-Technical-Documentation/_book/PDO.html
+ESR-Technical-Documentation/_book/search.json
+ESR-Technical-Documentation/_book/site_libs/bootstrap/bootstrap.min.css
+ESR-Technical-Documentation/_book/TimeSeriesQuadplots.html
+ESR-Technical-Documentation/docs/CCCForage.html
+ESR-Technical-Documentation/docs/ChinookSalmonEcosystemCalifornia.html
