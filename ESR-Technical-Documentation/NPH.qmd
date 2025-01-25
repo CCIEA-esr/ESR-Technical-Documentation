@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 ---
 lightbox: true
 bibliography: esr-bibliography.bib
@@ -10,6 +9,8 @@ format:
 
 
 ```{r}
+#| echo: false
+
 cciea_yr <- 2024
 
 ds_id <- 'cciea_OC_NPH'	   
@@ -32,7 +33,6 @@ rgn_lbl_jf <- rgn_lbl
 
 ```
 
->>>>>>> Stashed changes
 
 # North Pacific High Indicators
 
