@@ -1,3 +1,7 @@
+---
+bibliography: esr-bibliography.bib
+---
+
 # ONI (Oceanic Niño Index)
 
 ```{r get-file-from-google-drive}

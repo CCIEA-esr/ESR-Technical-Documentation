@@ -1,3 +1,7 @@
+---
+bibliography: esr-bibliography.bib
+---
+
 # Harmful Algal Blooms
 
 **Description** Harmful algal blooms (HABs) of diatoms in the genus Pseudo-nitzschia have been a recurring concern along the West Coast. Certain species of Pseudo-nitzschia produce the toxin domoic acid, which can accumulate in filter feeders and extend through food webs to cause harmful or lethal effects on people, marine mammals, and seabirds (Lefebvre et al. 2002; McCabe et al. 2016). Because domoic acid can cause amnesic shellfish poisoning in humans, fisheries that target shellfish (including razor clam, Dungeness crab, rock crab, and spiny lobster) are delayed, closed, or operate under special orders or health advisories when domoic acid concentrations exceed regulatory thresholds for human consumption. Fishery closures can cost tens of millions of dollars in lost revenue, and cause a range of sociocultural impacts in fishing communities (Dyson and Huppert 2010; Ritzman et al. 2018; Holland and Leonard 2020; Moore et al. 2020), including a “spillover” of fishing effort into other fisheries.

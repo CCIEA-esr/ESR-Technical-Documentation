@@ -1,3 +1,7 @@
+---
+bibliography: esr-bibliography.bib
+---
+
 # Sea Surface Temperature (SST)
 
 Satellite data, which has been collected in a similar fashion since 1982, allows for a basin-scale view of sea surface temperature (SST) at up to daily and sub-degree (spatial) resolution.

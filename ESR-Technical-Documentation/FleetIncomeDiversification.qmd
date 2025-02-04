@@ -1,3 +1,7 @@
+---
+bibliography: esr-bibliography.bib
+---
+
 # Fleet Income Diversification
 
 **Description** Catches and prices from many fisheries exhibit high interannual variability, leading to high variability in fisher’s revenue, but variability can be reduced by diversifying activities across multiple fisheries or regions (Kasperski and Holland 2013). Individuals may have good reasons to specialize, including reduced costs or greater efficiency; thus while diversification may reduce income variation, it does not necessarily promote higher average profitability. We use the Effective Shannon Index (ESI) to examine diversification of fishing revenue for more than 28,000 vessels fishing off the West Coast and Alaska over the last 40 years. The ESI increases as revenues are spread across more fisheries, and as revenues are spread more evenly across fisheries; ESI = 1 when a vessel’s revenues are from a single species group and region; ESI = 2 if revenues are spread evenly across 2 fisheries; ESI = 3 if revenues are spread evenly across 3 fisheries; and so on. If revenue is not evenly distributed across fisheries, then the ESI value is lower than the number of fisheries a vessel enters.

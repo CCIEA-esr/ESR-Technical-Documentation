@@ -1,3 +1,7 @@
+---
+bibliography: esr-bibliography.bib
+---
+
 # Seabird At-Sea Density
 
 **Description** Seabird densities on the water during the breeding season can track marine environmental conditions and may reflect regional production and availability of forage. Data from this indicator type can establish habitat use and may be used to detect and track seabird population movements or increases/declines as they relate to ecosystem change. We monitor and report on at-sea densities of three focal seabird species in the Northern, Central, and Southern CCE.

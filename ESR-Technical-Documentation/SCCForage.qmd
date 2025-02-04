@@ -1,3 +1,7 @@
+---
+bibliography: esr-bibliography.bib
+---
+
 # Southern California Current Forage
 
 **Description** Abundance indicators for forage in the Southern CCE come from fish and squid larvae collected in the spring (May-June) across all core stations of the CalCOFI survey. Larval data are indicators of the relative regional abundances of adult forage fish, such as sardines and anchovy, and other species, including certain groundfish, market squid, and mesopelagic fishes. The survey samples a variety of fish and invertebrate larvae (\<5 d old) from several taxonomic and functional groups, collected via oblique vertical tows of fine mesh Bongo nets to 212 m depth. In 2020, the spring larval survey was canceled due to COVID-19, and thus no data are available for that year, but survey operations resumed in 2021.

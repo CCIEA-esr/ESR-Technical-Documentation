@@ -1,3 +1,7 @@
+---
+bibliography: esr-bibliography.bib
+---
+
 # Non-Fishery Income Diversification
 
 **Description** Compared to many other professions, fishers face unusually high year-to-year variability in their income levels. Diversifying fishing income can help reduce income variability and reduce financial risk, but focusing solely on diversification opportunities within the fishery misses a potentially important form of financial risk reduction - income diversification from non-fishing occupations (i.e., livelihood diversification). Livelihood diversification may actually be a more effective form of financial risk reduction for fishing households if their non-fishing income streams are unaffected by changes in fishery productivity or profitability or if they can be actively increased when fishing income is low.

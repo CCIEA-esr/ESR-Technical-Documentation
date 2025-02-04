@@ -1,3 +1,7 @@
+---
+bibliography: esr-bibliography.bib
+---
+
 # Copepods
 
 ```{r get-file-from-google-drive}

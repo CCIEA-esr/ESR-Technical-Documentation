@@ -1,3 +1,6 @@
+---
+bibliography: esr-bibliography.bib
+---
 
 # Basin-Scale Indicators
 

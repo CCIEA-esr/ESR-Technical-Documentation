@@ -1,3 +1,7 @@
+---
+bibliography: esr-bibliography.bib
+---
+
 # Spatial Interactions with Ocean-Use Sectors
 
 Below, we describe two portfolios of indicators for i) oceanographic and lower-trophic level productivity and ii) fisheries activity that can help identify ocean areas important to the overall structure and function of the CCE, and that can track potential social-ecological impacts across all stages of OWE development.

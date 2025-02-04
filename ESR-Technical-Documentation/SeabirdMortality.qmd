@@ -1,3 +1,7 @@
+---
+bibliography: esr-bibliography.bib
+---
+
 # Seabird Mortality
 
 **Description** Monitoring of dead beached birds provides information on the health of seabird populations, ecosystem health, and unusual mortality events, and previous ESRs from the anomalously warm and unproductive years of 2014–2016 noted major seabird mortality events in each year.

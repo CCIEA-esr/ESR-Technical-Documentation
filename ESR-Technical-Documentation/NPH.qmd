@@ -1,10 +1,5 @@
-
 ---
-lightbox: true
 bibliography: esr-bibliography.bib
-format:
- html:
-  code-fold: true
 ---
 
 

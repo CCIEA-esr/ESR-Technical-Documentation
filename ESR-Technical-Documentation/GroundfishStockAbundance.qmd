@@ -1,3 +1,7 @@
+---
+bibliography: esr-bibliography.bib
+---
+
 # Groundfish Stock Abundance
 
 **Description** We present relative Stock Status of groundfish in the CCE as the ratio of the current year spawning biomass (in mt) or output (typically in billions of eggs) to unfished relative to the target reference point (as a percentage of unfished biomass; 0.4 for scorpaenids and other fishes; 0.25 for flatfishes). Fishing Intensity uses the fishing rate to achieve a specific spawner potential ratio (SPR), defined as F/FSPR, where SPR is the maximum sustainable yield (MSY) proxy.

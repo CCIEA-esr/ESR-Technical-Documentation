@@ -1,5 +1,5 @@
 ---
-# bibliography: /home/isaac/Work/IEA/2024/tech_document/tech_document.bib
+bibliography: esr-bibliography.bib
 format:
   html: 
     code-fold: true
